@@ -15,9 +15,9 @@ in de visualisatie die gemaakt zal worden komen een aantal grafieken aan bod om 
 # streamchart
 ![](doc/image1.doc)
 # bilevel pie chart
-![](doc/image2.png)
+![](doc/image2.doc)
 # bar chart
-![](doc/image3.png)
+![](doc/image3.doc)
 
 de datasets die voor deze visualistatie gebruikt worden zijn verschillende datasets van wikipedia. ook al bevat wikipedia natuurlijk geen pagina van alle ooit uitgebrachte muziekalbums, staan er toch veel albums op. deze albums staan ook niet netjes met genre en jaartal en verkoopcijfers op een pagina in een lijst dus er zullen best veel tables gescraped moeten worden. er zijn lijsten van albums per genre en albums per jaar op wikipedia dus als al deze lijsten gescraped worden en bij elkaar gevoegd in een JSON met een python programma zal er een goede dataset gemaakt kunnen worden.
 
