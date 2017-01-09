@@ -13,11 +13,11 @@ met de snelle ontwikkelingen in de 20e eeuw in de media en kunst en cultuursecto
 in de visualisatie die gemaakt zal worden komen een aantal grafieken aan bod om de vele muziekstijlen te visualiseren. ten eerste zal als hoofdgrafiek een stream chart worden gemaakt die laat zien hoeveel albums er van bepaalde overkoepelende genres(blues, rock, dance, psychedelic, jazz, country, hip hop) per jaar werden uitgebracht (data zal uit verschillende lijsten van albums per genre van wikipedia worden gehaald). als er op een van de oppervlakten voor een bepaald genre wordt geklikt zal er een bar graph verschijnen met de 10 best verkochte albums uit dit genre met een mousover tooltip functie die het jaar waarin het album uitgebracht is en de totale verkoop van het album zal laten zien. ook zal er een bilevel partition chart in de visualisatie zichtbaar zijn waar van alle overkoepelende genres in het eerste level de subgenres die op wikipedia te vinden zijn zal laten zien in het tweede level, waarin een mousover over een van de vlakken in de levels zal laten zien rond welk jaar de release van de albums zich centreerde (mediaan van de jaartallen van de releases). op deze manier wordt vooral gekeken naar hoe populair de muziekstijlen waren binnen de muzikale kringen (wat brachten muzikanten toen voor albums uit?) en via de barchart naar commerciele kringen(hoe verkochten deze albums?)
 
 # streamchart
-![](doc/image1.doc)
+![](image1.doc)
 # bilevel pie chart
-![](doc/image2.png)
+![](image2.png)
 # bar chart
-![](doc/image3.png)
+![](image3.png)
 
 de datasets die voor deze visualistatie gebruikt worden zijn verschillende datasets van wikipedia. ook al bevat wikipedia natuurlijk geen pagina van alle ooit uitgebrachte muziekalbums, staan er toch veel albums op. deze albums staan ook niet netjes met genre en jaartal en verkoopcijfers op een pagina in een lijst dus er zullen best veel tables gescraped moeten worden. er zijn lijsten van albums per genre en albums per jaar op wikipedia dus als al deze lijsten gescraped worden en bij elkaar gevoegd in een JSON met een python programma zal er een goede dataset gemaakt kunnen worden.
 
