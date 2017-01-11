@@ -1,0 +1,8 @@
+# process
+
+# 10-1
+deze dag is vooral gespendeerd aan data zoeken voor het muziek idee. helaas bleek het een te grote opgave te zijn om alle data die ik nodig had voor mijn originele idee in een database te vinden. als ik met dit project verder zou willen gaan, zou ik een eigen database aan moeten maken wat al een project op zich zou zijn dus aan het eind van de dag heb ik besloten om qua haalbaarheid meer op zeker te spelen en voor een andere dataset een visualisatie te maken. ik ga nu een kaartje maken waarop te zien is welk geloof het meest prominent aanwezig is in een land. verschillende kleuren geven aan welk geloof het meest aangehangen wordt in een land en als je op het land klikt zal je een pie chart met de aanhang van verschillende geloven weergeven wordt. ook zal er een barchart worden weergeven waarin als je op een van de geloven in de pie chart klikt je de 3 landen met de meeste en minste percentage van dat geloof hebt met in het midden het land waarvan de pie chart is. op de kaart zal een checkbox zijn waarin je de verschillende geloven "uit kan zetten".
+
+# 11-1
+in de ochtend meeting werden de proposels besproken. advies werd gegeven omtrend de haalbaarheid en functionaliteit. bij mijn plan b wat de geloofskaarten betreft werd vooral gezegd dat er een probleem kon zijn met de storytelling. dit kan worden opgelost door de verschillende geloven te vergelijken met sociale standaarden als literacy rate happines indexen en economische factoren of conflict
+in de middag is de data verzameld van een bron van wikipedia [citation needed] en in een csv file gezet om morgen in een json en in datamaps te zetten
