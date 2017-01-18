@@ -285,7 +285,7 @@
 	"christians": "93.9",
 	"population": "9930000"
 }, {
-	"land": "Bosnia-Herzegovina",
+	"land": "Bosnia and Herzegovina",
 	"jewish": " 0.1",
 	"hindu": " 0.1",
 	"muslim": "45.2",
@@ -317,29 +317,7 @@
 	"buddhist": "0.1",
 	"christians": "88.9",
 	"population": "194950000"
-}, {
-	"land": "British Virgin Islands",
-	"jewish": " 0.1",
-	"hindu": "1.2",
-	"muslim": "1.2",
-	"other": "0.8",
-	"unaf": "3.9",
-	"folk": "8.4",
-	"buddhist": " 0.1",
-	"christians": "84.5",
-	"population": "20000"
-}, {
-	"land": "Brunei",
-	"jewish": " 0.1",
-	"hindu": "0.3",
-	"muslim": "75.1",
-	"other": "0.1",
-	"unaf": "0.4",
-	"folk": "6.2",
-	"buddhist": "8.6",
-	"christians": "9.4",
-	"population": "400000"
-}, {
+},   {
 	"land": "Bulgaria",
 	"jewish": " 0.1",
 	"hindu": " 0.1",
@@ -362,7 +340,7 @@
 	"christians": "22.5",
 	"population": "16470000"
 }, {
-	"land": "Burma (Myanmar)",
+	"land": "Myanmar",
 	"jewish": " 0.1",
 	"hindu": "1.7",
 	"muslim": "4.0",
@@ -460,18 +438,7 @@
 	"buddhist": " 0.1",
 	"christians": "40.6",
 	"population": "11230000"
-}, {
-	"land": "Channel Islands",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": " 0.1",
-	"other": "0.3",
-	"unaf": "14.2",
-	"folk": " 0.1",
-	"buddhist": " 0.1",
-	"christians": "85.2",
-	"population": "150000"
-}, {
+},  {
 	"land": "Chile",
 	"jewish": "0.1",
 	"hindu": " 0.1",
@@ -582,7 +549,7 @@
 	"christians": "23.3",
 	"population": "10490000"
 }, {
-	"land": "Dem. Rep. of the Congo",
+	"land": "Democratic Republic of the Congo",
 	"jewish": " 0.1",
 	"hindu": " 0.1",
 	"muslim": "1.5",
@@ -713,40 +680,7 @@
 	"buddhist": " 0.1",
 	"christians": "62.8",
 	"population": "82950000"
-}, {
-	"land": "Faeroe Islands",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": " 0.1",
-	"other": "0.3",
-	"unaf": "1.7",
-	"folk": " 0.1",
-	"buddhist": " 0.1",
-	"christians": "98.0",
-	"population": "50000"
-}, {
-	"land": "Falkland Is. (Malvinas)",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": "0.3",
-	"other": "0.8",
-	"unaf": "31.5",
-	"folk": " 0.1",
-	"buddhist": "0.2",
-	"christians": "67.2",
-	"population": " 10000"
-}, {
-	"land": "Fed. States of Micronesia",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": " 0.1",
-	"other": "0.7",
-	"unaf": "0.9",
-	"folk": "2.7",
-	"buddhist": "0.4",
-	"christians": "95.3",
-	"population": "110000"
-}, {
+},    {
 	"land": "Fiji",
 	"jewish": " 0.1",
 	"hindu": "27.9",
@@ -944,18 +878,7 @@
 	"buddhist": " 0.1",
 	"christians": "10.9",
 	"population": "9980000"
-}, {
-	"land": "Guinea Bissau",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": "45.1",
-	"other": " 0.1",
-	"unaf": "4.3",
-	"folk": "30.9",
-	"buddhist": " 0.1",
-	"christians": "19.7",
-	"population": "1520000"
-}, {
+},  {
 	"land": "Guyana",
 	"jewish": " 0.1",
 	"hindu": "24.9",
@@ -1186,18 +1109,7 @@
 	"buddhist": " 0.1",
 	"christians": "97.0",
 	"population": "100000"
-}, {
-	"land": "Kosovo",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": "87.0",
-	"other": " 0.1",
-	"unaf": "1.6",
-	"folk": " 0.1",
-	"buddhist": " 0.1",
-	"christians": "11.4",
-	"population": "2080000"
-}, {
+},  {
 	"land": "Kuwait",
 	"jewish": " 0.1",
 	"hindu": "8.5",
@@ -1318,18 +1230,7 @@
 	"buddhist": " 0.1",
 	"christians": "70.4",
 	"population": "510000"
-}, {
-	"land": "Macau",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": "0.2",
-	"other": "1.0",
-	"unaf": "15.4",
-	"folk": "58.9",
-	"buddhist": "17.3",
-	"christians": "7.2",
-	"population": "540000"
-}, {
+},  {
 	"land": "Madagascar",
 	"jewish": " 0.1",
 	"hindu": " 0.1",
@@ -1582,18 +1483,7 @@
 	"buddhist": "0.2",
 	"christians": "50.6",
 	"population": "16610000"
-}, {
-	"land": "Netherlands Antilles",
-	"jewish": "0.3",
-	"hindu": "0.2",
-	"muslim": "0.2",
-	"other": "0.3",
-	"unaf": "3.3",
-	"folk": "1.2",
-	"buddhist": "0.5",
-	"christians": "93.9",
-	"population": "200000"
-}, {
+},  {
 	"land": "New Caledonia",
 	"jewish": " 0.1",
 	"hindu": " 0.1",
@@ -1670,18 +1560,7 @@
 	"buddhist": "1.5",
 	"christians": "2.0",
 	"population": "24350000"
-}, {
-	"land": "Northern Mariana Is.",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": "0.7",
-	"other": "1.1",
-	"unaf": "1.0",
-	"folk": "5.3",
-	"buddhist": "10.6",
-	"christians": "81.3",
-	"population": "60000"
-}, {
+},  {
 	"land": "Norway",
 	"jewish": " 0.1",
 	"hindu": "0.5",
@@ -1725,17 +1604,6 @@
 	"buddhist": "0.8",
 	"christians": "86.7",
 	"population": "20000"
-}, {
-	"land": "Palestinian territories",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": "97.6",
-	"other": " 0.1",
-	"unaf": " 0.1",
-	"folk": " 0.1",
-	"buddhist": " 0.1",
-	"christians": "2.4",
-	"population": "4040000"
 }, {
 	"land": "Panama",
 	"jewish": "0.4",
@@ -1836,7 +1704,7 @@
 	"christians": "13.8",
 	"population": "1760000"
 }, {
-	"land": "Republic of Macedonia",
+	"land": "Macedonia",
 	"jewish": " 0.1",
 	"hindu": " 0.1",
 	"muslim": "39.3",
@@ -1857,18 +1725,7 @@
 	"buddhist": " 0.1",
 	"christians": "85.9",
 	"population": "4040000"
-}, {
-	"land": "Reunion",
-	"jewish": " 0.1",
-	"hindu": "4.5",
-	"muslim": "4.2",
-	"other": "1.1",
-	"unaf": "2.0",
-	"folk": "0.4",
-	"buddhist": "0.2",
-	"christians": "87.6",
-	"population": "850000"
-}, {
+},  {
 	"land": "Romania",
 	"jewish": " 0.1",
 	"hindu": " 0.1",
@@ -2099,62 +1956,7 @@
 	"buddhist": "69.3",
 	"christians": "7.3",
 	"population": "20860000"
-}, {
-	"land": "St. Helena",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": " 0.1",
-	"other": "0.2",
-	"unaf": "3.3",
-	"folk": " 0.1",
-	"buddhist": " 0.1",
-	"christians": "96.5",
-	"population": " 10000"
-}, {
-	"land": "St. Kitts and Nevis",
-	"jewish": " 0.1",
-	"hindu": "1.5",
-	"muslim": "0.3",
-	"other": "0.8",
-	"unaf": "1.6",
-	"folk": "1.3",
-	"buddhist": " 0.1",
-	"christians": "94.6",
-	"population": "50000"
-}, {
-	"land": "St. Lucia",
-	"jewish": " 0.1",
-	"hindu": "0.3",
-	"muslim": "0.1",
-	"other": "2.0",
-	"unaf": "6.0",
-	"folk": "0.5",
-	"buddhist": " 0.1",
-	"christians": "91.1",
-	"population": "170000"
-}, {
-	"land": "St. Pierre and Miquelon",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": "0.2",
-	"other": "1.3",
-	"unaf": "3.8",
-	"folk": " 0.1",
-	"buddhist": " 0.1",
-	"christians": "94.7",
-	"population": " 10000"
-}, {
-	"land": "St. Vincent and the Gren.",
-	"jewish": " 0.1",
-	"hindu": "3.4",
-	"muslim": "1.5",
-	"other": "2.0",
-	"unaf": "2.5",
-	"folk": "2.0",
-	"buddhist": " 0.1",
-	"christians": "88.7",
-	"population": "110000"
-}, {
+},    {
 	"land": "Sudan",
 	"jewish": " 0.1",
 	"hindu": " 0.1",
@@ -2375,17 +2177,6 @@
 	"christians": "96.7",
 	"population": " 10000"
 }, {
-	"land": "U.S. Virgin Islands",
-	"jewish": "0.3",
-	"hindu": "0.4",
-	"muslim": "0.1",
-	"other": "0.6",
-	"unaf": "3.7",
-	"folk": " 0.1",
-	"buddhist": " 0.1",
-	"christians": "94.8",
-	"population": "110000"
-}, {
 	"land": "Uganda",
 	"jewish": " 0.1",
 	"hindu": "0.3",
@@ -2473,18 +2264,7 @@
 	"buddhist": " 0.1",
 	"christians": "93.3",
 	"population": "240000"
-}, {
-	"land": "Vatican City",
-	"jewish": " 0.1",
-	"hindu": " 0.1",
-	"muslim": " 0.1",
-	"other": " 0.1",
-	"unaf": " 0.1",
-	"folk": " 0.1",
-	"buddhist": " 0.1",
-	"christians": ">99.0",
-	"population": " 10000"
-}, {
+},  {
 	"land": "Venezuela",
 	"jewish": " 0.1",
 	"hindu": " 0.1",

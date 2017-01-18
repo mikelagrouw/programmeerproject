@@ -4,12 +4,16 @@
 	padding: 8px 16px;
 	border-radius: 5px;
 	border: none;
-	transition-duration: 0.3s;
+	transition-duration: 0.4s;
 }
 .button:hover {
 	background-color: green;
 	color: white;
 	
+}
+#containermap{
+	margin: 0 auto;
+	margin-bottom: 50px;
 }
 
 #parent{
@@ -18,6 +22,7 @@
 #left{
 	width: 400px;
 	height: 300px;
+	background-color: blue;
 }
 #right{
 	flex: 1;

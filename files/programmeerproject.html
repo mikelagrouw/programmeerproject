@@ -10,20 +10,22 @@
 	<header style="font-size: 26px; text-align: center;">The mapping of religion and social norms</header>
 	<header style="font-size: 18px; text-align: center;">dispersion of relegions across the world</header>
 
+	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
 	<script src="http://datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
 
-	<button id="christ" type="button" class="button">christ</button>
-	<button id="islam" type="button" class="button">islam</button>
-	<button id="unaf" type="button" class="button">unaff</button>
-	<button id="hinduism" type="button" class="button">hinduism</button>
-	<button id="buddhism" type="button" class="button">buddhism</button>
-	<button id="folk" type="button" class="button">folk</button>
-	<button id="other" type="button" class="button">other</button>
-	<button id="jewism" type="button" class="button">jewism</button>
-	<button id="most" type="button" class="button">most</button>
-	
+	<div align="center">
+		<button id="christ" type="button" class="button" onclick= updatedata("christians")>christ</button>
+		<button id="islam" type="button" class="button" onclick= updatedata("muslim")>islam</button>
+		<button id="unaf" type="button" class="button" onclick= updatedata("unaf")>unaff</button>
+		<button id="hinduism" type="button" class="button" onclick= updatedata("hindu")>hinduism</button>
+		<button id="buddhism" type="button" class="button" onclick= updatedata("buddhist")>buddhism</button>
+		<button id="folk" type="button" class="button" onclick= updatedata("folk")>folk</button>
+		<button id="other" type="button" class="button" onclick= updatedata("other")>other</button>
+		<button id="jewism" type="button" class="button" onclick= updatedata("jewish")>jewism</button>
+		<button id="most" type="button" class="button" onclick= updatedata("most")>most</button>
+	</div>
 
 	<div id="containermap" style="position: relative; width: 750px; height: 450px;"></div>
 	<div id="parent">

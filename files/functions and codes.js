@@ -258,3 +258,53 @@ var codes = [
         }   
     }
 }
+
+    
+function updatedata(religion){
+    console.log("come on")
+    d3.json("json.txt", function(data){
+    for(p = 0; p < Number(data.length); p++)
+    {
+        data[p][religion] = Number(data[p][religion])
+        console.log("je kan het")
+        if(data[p][religion] > 75)
+        {
+            dataset[getcountrycode(data[p].land)] = {fillKey: ">75", percentage: data[p][religion]};
+        }
+        if(data[p][religion] <= 75 && data[p][religion] > 50)
+        {
+            dataset[getcountrycode(data[p].land)] = {fillKey: "75 - 50", percentage: data[p][religion]};
+        }
+        if(data[p][religion] <= 50 && data[p][religion] > 10)
+        {
+            dataset[getcountrycode(data[p].land)] = {fillKey: "50 - 10", percentage: data[p][religion]};
+        }
+        if(data[p][religion] <= 10 && data[p][religion] > 5)
+        {
+            dataset[getcountrycode(data[p].land)] = {fillKey: "10 - 5", percentage: data[p][religion]};
+        }
+        if(data[p][religion] <= 5 && data[p][religion] > 1)
+        {
+            dataset[getcountrycode(data[p].land)] = {fillKey: "5 - 1", percentage: data[p][religion]};
+        }
+        if(data[p][religion] <= 1 && data[p][religion] > 0.1)
+        {
+            dataset[getcountrycode(data[p].land)] = {fillKey: "1 - .1", percentage: data[p][religion]};
+        }
+        if(data[p][religion] == 0.1)
+        {
+            dataset[getcountrycode(data[p].land)] = {fillKey: "< 0.1", percentage: data[p][religion]};
+        }
+
+    }
+
+    console.log(dataset);
+    map.updateChoropleth(null, {reset: true});
+    map.updateChoropleth(dataset);
+
+
+
+    
+})
+}
+console.log(map, "bestaat ie nog")
