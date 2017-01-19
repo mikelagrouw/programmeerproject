@@ -273,7 +273,7 @@ function updatedata(religion){
         }
         if(data[p][religion] <= 75 && data[p][religion] > 50)
         {
-            dataset[getcountrycode(data[p].land)] = {fillKey: "75 - 50", percentage: data[p][religion]};
+            dataset[getcountrycode(data[p].land)] = {fillKey: "welke - 50", percentage: data[p][religion]};
         }
         if(data[p][religion] <= 50 && data[p][religion] > 10)
         {
@@ -297,14 +297,99 @@ function updatedata(religion){
         }
 
     }
+    d3.select("svg").remove()
 
     console.log(dataset);
-    map.updateChoropleth(null, {reset: true});
-    map.updateChoropleth(dataset);
-
-
-
-    
+    var map = new Datamap({
+        // in container
+        element: document.getElementById('containermap'),
+        fills: {
+            ">75": "#005824",
+            "welke - 50": "#238b45",
+            "50 - 10": "#41ae76",
+            "10 - 5": "#66c2a4",
+            "5 - 1": "#99d8c9",
+            "1 - .1": "#ccece6",
+            "< 0.1": "#e5f5f9",
+            defaultFill: "black",
+            "no data": "black"
+        },
+        data: dataset,
+        geographyConfig: {
+        popupTemplate: function(geography, dataset){
+            return '<div class="hoverinfo">' + geography.properties.name + ": " + "percentage: " + dataset.percentage}
+        },    
+    });   
 })
 }
-console.log(map, "bestaat ie nog")
+
+function updatedatamost(){
+    d3.json("json.txt", function(data){
+        for(p = 0; p < data.length; p ++)
+        {
+            var temp = Number(data[p].christians);
+            var religion = "christians"
+            if(Number(data[p].muslim) > temp)
+            {
+                temp = Number(data[p].muslim)
+                religion = "muslim"
+            }
+            if(Number(data[p].unaf) > temp)
+            {
+                temp = Number(data[p].unaf)
+                religion = "unaf"
+            }
+            if(Number(data[p].hindu) > temp)
+            {
+                temp = Number(data[p].hindu)
+                religion = "hindu"
+            }
+            if(Number(data[p].jewish) > temp)
+            {
+                temp = Number(data[p].jewish)
+                religion = "jewish"
+            }
+            if(Number(data[p].folk) > temp)
+            {
+                temp = Number(data[p].folk)
+                religion = "folk"
+            }
+            if(Number(data[p].other) > temp)
+            {
+                temp = Number(data[p].other)
+                religion = "other"
+            }
+            if(Number(data[p].buddhist) > temp)
+            {
+                temp = Number(data[p].buddhist)
+                religion = "buddhist"
+            }
+            dataset[getcountrycode(data[p].land)] = {fillkey: religion, percentage: temp, land: data[p].land}
+        }
+        console.log(dataset);
+        d3.select("svg").remove()
+    var map = new Datamap({
+        // in container
+        element: document.getElementById('containermap'),
+        fills: {
+            "unaf": "#e41a1c",
+            "jewish": "#377eb8",
+            "hindu": "#4daf4a",
+            "christians": "#984ea3",
+            "muslim": "#ff7f00",
+            "other": "#ffff33",
+            "folk": "#a65628",
+            "buddhist": "#f781bf",
+            defaultFill: "black",
+            "no data": "black"
+        },
+        data: dataset,
+        geographyConfig: {
+        popupTemplate: function(geography, dataset){
+            return '<div class="hoverinfo">' + geography.properties.name + ": " + "religion: " + dataset.fillkey}
+        },
+
+    });
+    map.legend()
+    })
+}

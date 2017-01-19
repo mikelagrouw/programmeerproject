@@ -1,15 +1,4 @@
-[{
-	"land": "land",
-	"jewish": "jewish",
-	"hindu": "hindu",
-	"muslim": "muslims",
-	"other": "other",
-	"unaf": "unaf",
-	"folk": "folk",
-	"buddhist": "buddhist",
-	"christians": "christians",
-	"population": "population"
-}, {
+[ {
 	"land": "Afghanistan",
 	"jewish": " 0.1 ",
 	"hindu": " 0.1 ",
