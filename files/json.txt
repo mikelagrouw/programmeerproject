@@ -2210,7 +2210,7 @@
 	"christians": "71.1",
 	"population": "62040000"
 }, {
-	"land": "United States",
+	"land": "United States of America",
 	"jewish": "1.8",
 	"hindu": "0.6",
 	"muslim": "0.9",

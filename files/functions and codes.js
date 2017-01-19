@@ -234,7 +234,7 @@ var codes = [
     ["ua", "UKR", "Ukraine"],
     ["ae", "ARE", "United Arab Emirates"],
     ["gb", "GBR", "United Kingdom"],
-    ["us", "USA", "United States"],
+    ["us", "USA", "United States of America"],
     ["um", "UMI", "United States Minor Outlying Islands"],
     ["uy", "URY", "Uruguay"],
     ["uz", "UZB", "Uzbekistan"],
@@ -312,14 +312,21 @@ function updatedata(religion){
             "1 - .1": "#ccece6",
             "< 0.1": "#e5f5f9",
             defaultFill: "black",
-            "no data": "black"
+            "no data": "black",
+
         },
         data: dataset,
         geographyConfig: {
         popupTemplate: function(geography, dataset){
             return '<div class="hoverinfo">' + geography.properties.name + ": " + "percentage: " + dataset.percentage}
         },    
-    });   
+    });
+    d3.select(".datamaps-legend").remove()
+    map.legend()
+    map.svg.selectAll('.datamaps-subunit').on('click', function(geography, data) {
+    console.log(geography.properties.name);
+    makepie(geography.properties.name);
+    })   
 })
 }
 
@@ -364,7 +371,7 @@ function updatedatamost(){
                 temp = Number(data[p].buddhist)
                 religion = "buddhist"
             }
-            dataset[getcountrycode(data[p].land)] = {fillkey: religion, percentage: temp, land: data[p].land}
+            dataset[getcountrycode(data[p].land)] = {fillKey: religion, percentage: temp}
         }
         console.log(dataset);
         d3.select("svg").remove()
@@ -375,21 +382,25 @@ function updatedatamost(){
             "unaf": "#e41a1c",
             "jewish": "#377eb8",
             "hindu": "#4daf4a",
-            "christians": "#984ea3",
-            "muslim": "#ff7f00",
+            "christians": "#ff7f00",
+            "muslim": "#984ea3",
             "other": "#ffff33",
             "folk": "#a65628",
-            "buddhist": "#f781bf",
-            defaultFill: "black",
-            "no data": "black"
+            "buddhist": "#f781bf", 
+            
         },
         data: dataset,
         geographyConfig: {
         popupTemplate: function(geography, dataset){
-            return '<div class="hoverinfo">' + geography.properties.name + ": " + "religion: " + dataset.fillkey}
+            return '<div class="hoverinfo">' + geography.properties.name + ": " + "religion: " + dataset.fillKey}
         },
 
     });
+    d3.select(".datamaps-legend").remove()
     map.legend()
+    map.svg.selectAll('.datamaps-subunit').on('click', function(geography, data) {
+    console.log(geography.properties.name);
+    makepie(geography.properties.name);
+    })
     })
 }

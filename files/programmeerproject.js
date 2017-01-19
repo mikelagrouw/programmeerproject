@@ -61,8 +61,8 @@ var map = new Datamap({
 	map.legend();
 	console.log(map, "hij bestaat")
 	map.svg.selectAll('.datamaps-subunit').on('click', function(geography, data) {
-	console.log(geography.properties.name)
-	makepie(geography.properties.name)
+	console.log(geography.properties.name);
+	makepie(geography.properties.name);
 	})
 
 })
@@ -83,20 +83,34 @@ var color = d3.scale.ordinal()
 
 var arc = d3.svg.arc()
 		.outerRadius(radius - 10) 
-		.innerRadius(0);
+		.innerRadius(75);
 
 var pie = d3.layout.pie()
 		.value(function(d){return d.percentage})
 		.sort(null)
 
+var tooltippie = d3.select("#right")
+				.append("div")
+				.attr("class", "tooltip")
+
 
 var svg = d3.select("#right").append("svg")
 		.attr("width", width)
 		.attr("height", height)
+		.attr("class", "pie")
 		.append("g")
 		.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 function makepie(land){
 	d3.json("json.txt", function(data){
+		d3.select(".pie").remove()
+
+		var svg = d3.select("#right").append("svg")
+		.attr("width", width)
+		.attr("height", height)
+		.attr("class", "pie")
+		.append("g")
+		.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
 		for(i = 0; i < data.length; i++)
 		{
 			if(data[i].land == land)
@@ -120,7 +134,11 @@ function makepie(land){
 
 	  g.append("path")
 	      .attr("d", arc)
-	      .style("fill", function(d){ return color(d.data.label); });	
+	      .style("fill", function(d){ return color(d.data.label); });
+
+	  arc.on("mousover", function(d){
+	  	console.log("mousover")
+	  })	
 	});
 }
 		
