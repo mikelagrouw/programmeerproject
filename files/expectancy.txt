@@ -1,0 +1,805 @@
+[{
+	"expectancy": "83.74",
+	"land": "Hong Kong ( China)",
+	"rank": "1"
+}, {
+	"expectancy": "83.31",
+	"land": "Japan",
+	"rank": "2"
+}, {
+	"expectancy": "82.84",
+	"land": "Italy",
+	"rank": "3"
+}, {
+	"expectancy": "82.66",
+	"land": "Switzerland",
+	"rank": "4"
+}, {
+	"expectancy": "82.64",
+	"land": "Singapore",
+	"rank": "5"
+}, {
+	"expectancy": "82.30",
+	"land": "Iceland",
+	"rank": "6"
+}, {
+	"expectancy": "82.28",
+	"land": "Spain",
+	"rank": "7"
+}, {
+	"expectancy": "82.10",
+	"land": "Australia",
+	"rank": "8"
+}, {
+	"expectancy": "82.07",
+	"land": "Israel",
+	"rank": "9"
+}, {
+	"expectancy": "81.93",
+	"land": "Sweden",
+	"rank": "10"
+}, {
+	"expectancy": "81.85",
+	"land": "France (metropol.)",
+	"rank": "11"
+}, {
+	"expectancy": "81.78",
+	"land": "Canada",
+	"rank": "12"
+}, {
+	"expectancy": "81.56",
+	"land": "New Zealand",
+	"rank": "13"
+}, {
+	"expectancy": "81.43",
+	"land": "South Korea",
+	"rank": "14"
+}, {
+	"expectancy": "81.34",
+	"land": "Luxembourg",
+	"rank": "15"
+}, {
+	"expectancy": "81.32",
+	"land": "Norway",
+	"rank": "16"
+}, {
+	"expectancy": "81.31",
+	"land": "Netherlands",
+	"rank": "17"
+}, {
+	"expectancy": "81.21",
+	"land": "Chile",
+	"rank": "18"
+}, {
+	"expectancy": "81.18",
+	"land": "Martinique ( France)",
+	"rank": "19"
+}, {
+	"expectancy": "81.09",
+	"land": "Austria",
+	"rank": "20"
+}, {
+	"expectancy": "80.66",
+	"land": "Germany",
+	"rank": "21"
+}, {
+	"expectancy": "80.60",
+	"land": "Greece",
+	"rank": "22"
+}, {
+	"expectancy": "80.57",
+	"land": "Ireland",
+	"rank": "23"
+}, {
+	"expectancy": "80.56",
+	"land": "Guadeloupe ( France)",
+	"rank": "24"
+}, {
+	"expectancy": "80.55",
+	"land": "Portugal",
+	"rank": "25"
+}, {
+	"expectancy": "80.53",
+	"land": "Belgium",
+	"rank": "26="
+}, {
+	"expectancy": "80.53",
+	"land": "Finland",
+	"rank": "26="
+}, {
+	"expectancy": "80.45",
+	"land": "Channel Islands ( UK)",
+	"rank": "28="
+}, {
+	"expectancy": "80.45",
+	"land": "United Kingdom",
+	"rank": "28="
+}, {
+	"expectancy": "80.30",
+	"land": "Malta",
+	"rank": "30="
+}, {
+	"expectancy": "80.30",
+	"land": "Macau ( China)",
+	"rank": "30="
+}, {
+	"expectancy": "80.08",
+	"land": "Slovenia",
+	"rank": "32"
+}, {
+	"expectancy": "80.06",
+	"land": "U.S. Virgin Islands ( US)",
+	"rank": "33"
+}, {
+	"expectancy": "79.99",
+	"land": "Denmark",
+	"rank": "34"
+}, {
+	"expectancy": "79.90",
+	"land": "Cyprus",
+	"rank": "35"
+}, {
+	"expectancy": "79.54",
+	"land": "Runion ( France)",
+	"rank": "36"
+}, {
+	"expectancy": "79.34",
+	"land": "Mayotte ( France)",
+	"rank": "37"
+}, {
+	"expectancy": "79.26",
+	"land": "Taiwan",
+	"rank": "38"
+}, {
+	"expectancy": "79.22",
+	"land": "Puerto Rico ( US)",
+	"rank": "39"
+}, {
+	"expectancy": "79.16",
+	"land": "Costa Rica",
+	"rank": "40="
+}, {
+	"expectancy": "79.16",
+	"land": "Cuba",
+	"rank": "40="
+}, {
+	"expectancy": "78.98",
+	"land": "French Guiana ( France)",
+	"rank": "42"
+}, {
+	"expectancy": "78.88",
+	"land": "United States",
+	"rank": "43"
+}, {
+	"expectancy": "78.86",
+	"land": "Lebanon",
+	"rank": "44"
+}, {
+	"expectancy": "78.72",
+	"land": "Guam ( US)",
+	"rank": "45"
+}, {
+	"expectancy": "78.44",
+	"land": "Brunei",
+	"rank": "46"
+}, {
+	"expectancy": "78.35",
+	"land": "Czech Republic",
+	"rank": "47"
+}, {
+	"expectancy": "77.89",
+	"land": "Qatar",
+	"rank": "48"
+}, {
+	"expectancy": "77.77",
+	"land": "Curaao ( Netherlands)",
+	"rank": "49"
+}, {
+	"expectancy": "77.49",
+	"land": "Albania",
+	"rank": "50"
+}, {
+	"expectancy": "77.32",
+	"land": "Panama",
+	"rank": "51"
+}, {
+	"expectancy": "77.14",
+	"land": "Poland",
+	"rank": "52"
+}, {
+	"expectancy": "77.05",
+	"land": "Croatia",
+	"rank": "53"
+}, {
+	"expectancy": "76.96",
+	"land": "Uruguay",
+	"rank": "54"
+}, {
+	"expectancy": "76.67",
+	"land": "United Arab Emirates",
+	"rank": "55"
+}, {
+	"expectancy": "76.52",
+	"land": "Estonia",
+	"rank": "56"
+}, {
+	"expectancy": "76.48",
+	"land": "Mexico",
+	"rank": "57"
+}, {
+	"expectancy": "76.38",
+	"land": "Bahrain",
+	"rank": "58"
+}, {
+	"expectancy": "76.36",
+	"land": "Maldives",
+	"rank": "59"
+}, {
+	"expectancy": "76.33",
+	"land": "Oman",
+	"rank": "60"
+}, {
+	"expectancy": "76.26",
+	"land": "Bosnia and Herzegovina",
+	"rank": "61"
+}, {
+	"expectancy": "76.19",
+	"land": "New Caledonia ( France)",
+	"rank": "62"
+}, {
+	"expectancy": "76.12",
+	"land": "French Polynesia ( France)",
+	"rank": "63"
+}, {
+	"expectancy": "76.04",
+	"land": "Slovakia",
+	"rank": "64"
+}, {
+	"expectancy": "76.02",
+	"land": "Montenegro",
+	"rank": "65"
+}, {
+	"expectancy": "76.01",
+	"land": "Argentina",
+	"rank": "66"
+}, {
+	"expectancy": "75.82",
+	"land": "Antigua and Barbuda",
+	"rank": "67"
+}, {
+	"expectancy": "75.57",
+	"land": "Vietnam",
+	"rank": "68"
+}, {
+	"expectancy": "75.54",
+	"land": "Ecuador",
+	"rank": "69"
+}, {
+	"expectancy": "75.44",
+	"land": "Jamaica",
+	"rank": "70"
+}, {
+	"expectancy": "75.43",
+	"land": "China",
+	"rank": "71"
+}, {
+	"expectancy": "75.39",
+	"land": "Aruba ( Netherlands)",
+	"rank": "72"
+}, {
+	"expectancy": "75.37",
+	"land": "Barbados",
+	"rank": "73"
+}, {
+	"expectancy": "75.16",
+	"land": "Macedonia",
+	"rank": "74"
+}, {
+	"expectancy": "75.15",
+	"land": "Bahamas",
+	"rank": "75"
+}, {
+	"expectancy": "75.06",
+	"land": "Iran",
+	"rank": "76"
+}, {
+	"expectancy": "74.98",
+	"land": "Hungary",
+	"rank": "77"
+}, {
+	"expectancy": "74.84",
+	"land": "Turkey",
+	"rank": "78"
+}, {
+	"expectancy": "74.81",
+	"land": "Saint Lucia",
+	"rank": "79"
+}, {
+	"expectancy": "74.65",
+	"land": "Serbia",
+	"rank": "80"
+}, {
+	"expectancy": "74.64",
+	"land": "Sri Lanka",
+	"rank": "81="
+}, {
+	"expectancy": "74.64",
+	"land": "Georgia",
+	"rank": "81="
+}, {
+	"expectancy": "74.60",
+	"land": "Tunisia",
+	"rank": "83"
+}, {
+	"expectancy": "74.56",
+	"land": "Armenia",
+	"rank": "84"
+}, {
+	"expectancy": "74.50",
+	"land": "Malaysia",
+	"rank": "85"
+}, {
+	"expectancy": "74.47",
+	"land": "Nicaragua",
+	"rank": "86"
+}, {
+	"expectancy": "74.46",
+	"land": "Romania",
+	"rank": "87"
+}, {
+	"expectancy": "74.42",
+	"land": "Algeria",
+	"rank": "88"
+}, {
+	"expectancy": "74.28",
+	"land": "Kuwait",
+	"rank": "89"
+}, {
+	"expectancy": "74.15",
+	"land": "Mauritius",
+	"rank": "90="
+}, {
+	"expectancy": "74.15",
+	"land": "Peru",
+	"rank": "90="
+}, {
+	"expectancy": "74.14",
+	"land": "Thailand",
+	"rank": "92"
+}, {
+	"expectancy": "74.08",
+	"land": "Saudi Arabia",
+	"rank": "93"
+}, {
+	"expectancy": "74.05",
+	"land": "Brazil",
+	"rank": "94"
+}, {
+	"expectancy": "74.04",
+	"land": "Bulgaria",
+	"rank": "95"
+}, {
+	"expectancy": "73.95",
+	"land": "Venezuela",
+	"rank": "96="
+}, {
+	"expectancy": "73.95",
+	"land": "Latvia",
+	"rank": "96="
+}, {
+	"expectancy": "73.79",
+	"land": "Jordan",
+	"rank": "98"
+}, {
+	"expectancy": "73.75",
+	"land": "Colombia",
+	"rank": "99"
+}, {
+	"expectancy": "73.61",
+	"land": "Morocco",
+	"rank": "100"
+}, {
+	"expectancy": "73.19",
+	"land": "Dominican Republic",
+	"rank": "101"
+}, {
+	"expectancy": "73.17",
+	"land": "Grenada",
+	"rank": "102"
+}, {
+	"expectancy": "73.07",
+	"land": "Lithuania",
+	"rank": "103"
+}, {
+	"expectancy": "73.02",
+	"land": "Samoa",
+	"rank": "104"
+}, {
+	"expectancy": "72.97",
+	"land": "Cape Verde",
+	"rank": "105"
+}, {
+	"expectancy": "72.94",
+	"land": "Seychelles",
+	"rank": "106"
+}, {
+	"expectancy": "72.83",
+	"land": "Honduras",
+	"rank": "107"
+}, {
+	"expectancy": "72.75",
+	"land": "Saint Vincent and the Grenadines",
+	"rank": "108"
+}, {
+	"expectancy": "72.74",
+	"land": "Paraguay",
+	"rank": "109"
+}, {
+	"expectancy": "72.65",
+	"land": "Palestine",
+	"rank": "110"
+}, {
+	"expectancy": "72.64",
+	"land": "El Salvador",
+	"rank": "111"
+}, {
+	"expectancy": "72.60",
+	"land": "Tonga",
+	"rank": "112"
+}, {
+	"expectancy": "71.48",
+	"land": "Vanuatu",
+	"rank": "113"
+}, {
+	"expectancy": "71.47",
+	"land": "Libya",
+	"rank": "114="
+}, {
+	"expectancy": "71.47",
+	"land": "Guatemala",
+	"rank": "114="
+}, {
+	"expectancy": "71.33",
+	"land": "Moldova",
+	"rank": "116"
+}, {
+	"expectancy": "71.08",
+	"land": "Belarus",
+	"rank": "117"
+}, {
+	"expectancy": "71.01",
+	"land": "Bangladesh",
+	"rank": "118"
+}, {
+	"expectancy": "70.90",
+	"land": "Suriname",
+	"rank": "119"
+}, {
+	"expectancy": "70.84",
+	"land": "Egypt",
+	"rank": "120"
+}, {
+	"expectancy": "70.76",
+	"land": "Ukraine",
+	"rank": "121"
+}, {
+	"expectancy": "70.62",
+	"land": "Azerbaijan",
+	"rank": "122"
+}, {
+	"expectancy": "70.26",
+	"land": "Kyrgyzstan",
+	"rank": "123"
+}, {
+	"expectancy": "70.23",
+	"land": "Trinidad and Tobago",
+	"rank": "124"
+}, {
+	"expectancy": "69.91",
+	"land": "North Korea",
+	"rank": "125"
+}, {
+	"expectancy": "69.83",
+	"land": "Russian Federation",
+	"rank": "126"
+}, {
+	"expectancy": "69.76",
+	"land": "Belize",
+	"rank": "127"
+}, {
+	"expectancy": "69.72",
+	"land": "Fiji",
+	"rank": "128"
+}, {
+	"expectancy": "69.51",
+	"land": "Syria",
+	"rank": "129"
+}, {
+	"expectancy": "69.19",
+	"land": "Iraq",
+	"rank": "130"
+}, {
+	"expectancy": "69.07",
+	"land": "Tajikistan",
+	"rank": "131="
+}, {
+	"expectancy": "69.07",
+	"land": "Kazakhstan",
+	"rank": "131="
+}, {
+	"expectancy": "69.03",
+	"land": "Nepal",
+	"rank": "133"
+}, {
+	"expectancy": "68.93",
+	"land": "Federated States of Micronesia",
+	"rank": "134"
+}, {
+	"expectancy": "68.89",
+	"land": "Mongolia",
+	"rank": "135"
+}, {
+	"expectancy": "68.88",
+	"land": "Bhutan",
+	"rank": "136"
+}, {
+	"expectancy": "68.59",
+	"land": "Indonesia",
+	"rank": "137"
+}, {
+	"expectancy": "68.25",
+	"land": "Uzbekistan",
+	"rank": "138"
+}, {
+	"expectancy": "67.99",
+	"land": "Philippines",
+	"rank": "139"
+}, {
+	"expectancy": "67.73",
+	"land": "Timor-Leste",
+	"rank": "140"
+}, {
+	"expectancy": "67.72",
+	"land": "Bolivia",
+	"rank": "141"
+}, {
+	"expectancy": "67.61",
+	"land": "Western Sahara",
+	"rank": "142="
+}, {
+	"expectancy": "67.61",
+	"land": "Cambodia",
+	"rank": "142="
+}, {
+	"expectancy": "67.53",
+	"land": "Solomon Islands",
+	"rank": "144"
+}, {
+	"expectancy": "67.47",
+	"land": "India",
+	"rank": "145"
+}, {
+	"expectancy": "66.24",
+	"land": "Guyana",
+	"rank": "146"
+}, {
+	"expectancy": "66.23",
+	"land": "So Tom and Prncipe",
+	"rank": "147"
+}, {
+	"expectancy": "65.88",
+	"land": "Pakistan",
+	"rank": "148"
+}, {
+	"expectancy": "65.81",
+	"land": "Senegal",
+	"rank": "149"
+}, {
+	"expectancy": "65.74",
+	"land": "Kiribati",
+	"rank": "150"
+}, {
+	"expectancy": "65.64",
+	"land": "Myanmar",
+	"rank": "151"
+}, {
+	"expectancy": "65.51",
+	"land": "Laos",
+	"rank": "152"
+}, {
+	"expectancy": "65.39",
+	"land": "Turkmenistan",
+	"rank": "153"
+}, {
+	"expectancy": "64.50",
+	"land": "Madagascar",
+	"rank": "154"
+}, {
+	"expectancy": "64.34",
+	"land": "Namibia",
+	"rank": "155"
+}, {
+	"expectancy": "64.12",
+	"land": "Botswana",
+	"rank": "156"
+}, {
+	"expectancy": "64.04",
+	"land": "Tanzania",
+	"rank": "157"
+}, {
+	"expectancy": "63.65",
+	"land": "Gabon",
+	"rank": "158"
+}, {
+	"expectancy": "63.51",
+	"land": "Yemen",
+	"rank": "159"
+}, {
+	"expectancy": "63.14",
+	"land": "Rwanda",
+	"rank": "160"
+}, {
+	"expectancy": "63.13",
+	"land": "Ethiopia",
+	"rank": "161"
+}, {
+	"expectancy": "63.08",
+	"land": "Sudan",
+	"rank": "162"
+}, {
+	"expectancy": "63.07",
+	"land": "Eritrea",
+	"rank": "163"
+}, {
+	"expectancy": "62.83",
+	"land": "Comoros",
+	"rank": "164"
+}, {
+	"expectancy": "62.77",
+	"land": "Mauritania",
+	"rank": "165"
+}, {
+	"expectancy": "62.31",
+	"land": "Papua New Guinea",
+	"rank": "166"
+}, {
+	"expectancy": "62.29",
+	"land": "Haiti",
+	"rank": "167"
+}, {
+	"expectancy": "61.61",
+	"land": "Djibouti",
+	"rank": "168"
+}, {
+	"expectancy": "61.42",
+	"land": "Congo",
+	"rank": "169"
+}, {
+	"expectancy": "61.03",
+	"land": "Ghana",
+	"rank": "170"
+}, {
+	"expectancy": "60.97",
+	"land": "Malawi",
+	"rank": "171"
+}, {
+	"expectancy": "60.65",
+	"land": "Niger",
+	"rank": "172"
+}, {
+	"expectancy": "60.62",
+	"land": "Kenya",
+	"rank": "173"
+}, {
+	"expectancy": "60.25",
+	"land": "Liberia",
+	"rank": "174"
+}, {
+	"expectancy": "59.83",
+	"land": "Gambia",
+	"rank": "175"
+}, {
+	"expectancy": "59.82",
+	"land": "Afghanistan",
+	"rank": "176"
+}, {
+	"expectancy": "59.20",
+	"land": "Benin",
+	"rank": "177"
+}, {
+	"expectancy": "59.01",
+	"land": "Togo",
+	"rank": "178"
+}, {
+	"expectancy": "58.75",
+	"land": "Zambia",
+	"rank": "179"
+}, {
+	"expectancy": "58.10",
+	"land": "Democratic Republic of the Congo",
+	"rank": "180"
+}, {
+	"expectancy": "58.07",
+	"land": "Burkina Faso",
+	"rank": "181"
+}, {
+	"expectancy": "58.04",
+	"land": "Guinea",
+	"rank": "182"
+}, {
+	"expectancy": "57.25",
+	"land": "Uganda",
+	"rank": "183"
+}, {
+	"expectancy": "57.23",
+	"land": "Mali",
+	"rank": "184"
+}, {
+	"expectancy": "57.13",
+	"land": "Equatorial Guinea",
+	"rank": "185"
+}, {
+	"expectancy": "57.11",
+	"land": "South Africa",
+	"rank": "186"
+}, {
+	"expectancy": "56.07",
+	"land": "Burundi",
+	"rank": "187"
+}, {
+	"expectancy": "55.06",
+	"land": "South Sudan",
+	"rank": "188"
+}, {
+	"expectancy": "54.88",
+	"land": "Somalia",
+	"rank": "189"
+}, {
+	"expectancy": "54.87",
+	"land": "Cameroon",
+	"rank": "190"
+}, {
+	"expectancy": "54.78",
+	"land": "Zimbabwe",
+	"rank": "191"
+}, {
+	"expectancy": "54.72",
+	"land": "Guinea-Bissau",
+	"rank": "192"
+}, {
+	"expectancy": "54.63",
+	"land": "Mozambique",
+	"rank": "193"
+}, {
+	"expectancy": "52.29",
+	"land": "Nigeria",
+	"rank": "194"
+}, {
+	"expectancy": "51.68",
+	"land": "Angola",
+	"rank": "195"
+}, {
+	"expectancy": "51.13",
+	"land": "Chad",
+	"rank": "196"
+}, {
+	"expectancy": "50.97",
+	"land": "Cte d''Ivoire",
+	"rank": "197"
+}, {
+	"expectancy": "50.19",
+	"land": "Sierra Leone",
+	"rank": "198"
+}, {
+	"expectancy": "49.53",
+	"land": "Central African Republic",
+	"rank": "199"
+}, {
+	"expectancy": "49.50",
+	"land": "Lesotho",
+	"rank": "200"
+}, {
+	"expectancy": "49.18",
+	"land": "Swaziland",
+	"rank": "201"
+}]

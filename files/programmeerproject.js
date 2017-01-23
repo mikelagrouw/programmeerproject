@@ -1,71 +1,7 @@
 // make dataset for fillkeys
 var dataset = {}
 // open json
-d3.json("json.txt", function(data){
-	for(p = 0; p < Number(data.length); p++)
-	{
-		data[p].muslim = Number(data[p].muslim)
-
-		if(data[p].muslim > 75)
-		{
-			dataset[getcountrycode(data[p].land)] = {fillKey: ">75", percentage: data[p].muslim};
-		}
-		if(data[p].muslim <= 75 && data[p].muslim > 50)
-		{
-			dataset[getcountrycode(data[p].land)] = {fillKey: "75 - 50", percentage: data[p].muslim};
-		}
-		if(data[p].muslim <= 50 && data[p].muslim > 10)
-		{
-			dataset[getcountrycode(data[p].land)] = {fillKey: "50 - 10", percentage: data[p].muslim};
-		}
-		if(data[p].muslim <= 10 && data[p].muslim > 5)
-		{
-			dataset[getcountrycode(data[p].land)] = {fillKey: "10 - 5", percentage: data[p].muslim};
-		}
-		if(data[p].muslim <= 5 && data[p].muslim > 1)
-		{
-			dataset[getcountrycode(data[p].land)] = {fillKey: "5 - 1", percentage: data[p].muslim};
-		}
-		if(data[p].muslim <= 1 && data[p].muslim > 0.1)
-		{
-			dataset[getcountrycode(data[p].land)] = {fillKey: "1 - .1", percentage: data[p].muslim};
-		}
-		if(data[p].muslim == 0.1)
-		{
-			dataset[getcountrycode(data[p].land)] = {fillKey: "< 0.1", percentage: data[p].muslim};
-		}
-
-	}
-
-	// draw map
-var map = new Datamap({
-		// in container
-        element: document.getElementById('containermap'),
-        fills: {
-        	">75": "#005824",
-        	"75 - 50": "#238b45",
-        	"50 - 10": "#41ae76",
-        	"10 - 5": "#66c2a4",
-        	"5 - 1": "#99d8c9",
-        	"1 - .1": "#ccece6",
-        	"< 0.1": "#e5f5f9",
-        	defaultFill: "black",
-        	"no data": "black"
-        },
-        data: dataset,
-        geographyConfig: {
-        popupTemplate: function(geography, dataset){
-        	return '<div class="hoverinfo">' + geography.properties.name + ": " + "percentage: " + dataset.percentage}
-        },    
-    });
-	map.legend();
-	console.log(map, "hij bestaat")
-	map.svg.selectAll('.datamaps-subunit').on('click', function(geography, data) {
-	console.log(geography.properties.name);
-	makepie(geography.properties.name);
-	})
-
-})
+updatedatamost()
 
 
 
@@ -104,7 +40,7 @@ function makepie(land){
 	d3.json("json.txt", function(data){
 		d3.select(".pie").remove()
 
-		var svg = d3.select("#right").append("svg")
+		var svgpie = d3.select("#right").append("svg")
 		.attr("width", width)
 		.attr("height", height)
 		.attr("class", "pie")
@@ -127,20 +63,91 @@ function makepie(land){
 				console.log(piepie)
 			}
 		}
-		  var g = svg.selectAll(".arc")
+		  var g = svgpie.selectAll(".arc")
 	      .data(pie(piepie))
 	    	.enter().append("g")
 	      	.attr("class", "arc");
 
-	  g.append("path")
+	var path =  g.append("path")
 	      .attr("d", arc)
 	      .style("fill", function(d){ return color(d.data.label); });
 
-	  arc.on("mousover", function(d){
+	  svgpie.selectAll("path").on("mousover", function(d){
 	  	console.log("mousover")
 	  })	
 	});
 }
+var xValue = function(d) { return d.percentage; console.log(d[5].percentage)}, // data -> value
+    xScale = d3.scale.linear().range([0, widthscatter]), // value -> display
+    xMap = function(d) { return xScale(xValue(d));}, // data -> display
+    xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+
+var yValue = function(d) { return d.social;}, // data -> value
+    yScale = d3.scale.linear().range([heightscatter, 0]), // value -> display
+    yMap = function(d) { return yScale(yValue(d));}, // data -> display
+    yAxis = d3.svg.axis().scale(yScale).orient("left");
+
+var marginscatter = {top: 20, bottom: 20, left: 20, right: 20},
+		widthscatter = 400 - marginscatter.left - marginscatter.right,
+		heightscatter = 300 - marginscatter.bottom - marginscatter.top;
+
+var svgscatter = d3.select("body").append("svg")
+				.attr("width", widthscatter + marginscatter.left + marginscatter.right)
+    			.attr("height", heightscatter + marginscatter.top + marginscatter.bottom)
+  				.append("g")
+    			.attr("transform", "translate(" + marginscatter.left + "," + marginscatter.top + ")");
+    	
+var scatterdata = {}  
+	dataindex = 0	
+
+
+d3.json("json.txt", function(data){
+    d3.json("expectancy.txt", function(data2){
+        console.log(data[100].land, data2[50].land, "ik hoop dat dit kan")
+        console.log(data)
+        console.log(data2, "data2")
+
+        for(v = 0; v < data.length; v++)
+        {
+        	for(f = 0; f < data2.length; f++)
+        	{
+        		if (data[v].land == data2[f].land)
+        		{
+        			console.log(data[v].land,dataindex, "komop wat is deez")
+        			scatterdata[data[v].land] = {"land": data[v].land, "percentage": Number(data[v].muslim), "social": Number(data2[f].expectancy)}
+        			dataindex += 1
+        		}
+        	}
+        }
+        console.log(scatterdata)
+          	xScale.domain([d3.min(data.muslim, xValue)-1, d3.max(data.muslim, xValue)+1]);
+  			yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
+
+          svgscatter.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + heightscatter + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("x", widthscatter)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+      .text("religion percentage");
+
+      svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 30)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("sociaal ding");
+        
+
+    })
+})
 		
 
 
