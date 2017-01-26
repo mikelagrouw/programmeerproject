@@ -249,6 +249,8 @@ var codes = [
     ["zm", "ZMB", "Zambia"],
     ["zw", "ZWE", "Zimbabwe"] ];
 
+var current_religion = "most"
+
     function getcountrycode(country){
     for(i = 0; i < codes.length; i++)
     {
@@ -262,6 +264,8 @@ var codes = [
     
 function updatedata(religion){
     console.log("come on")
+    current_religion = religion
+    console.log(current_religion, "current var")
     d3.json("json.txt", function(data){
     for(p = 0; p < Number(data.length); p++)
     {
@@ -328,6 +332,7 @@ function updatedata(religion){
     makepie(geography.properties.name);
     })   
 })
+makescatter(religion, "expectancy")
 }
 
 function updatedatamost(){
@@ -386,7 +391,8 @@ function updatedatamost(){
             "muslim": "#984ea3",
             "other": "#ffff33",
             "folk": "#a65628",
-            "buddhist": "#f781bf", 
+            "buddhist": "#f781bf",
+            "no data" : "black"
             
         },
         data: dataset,

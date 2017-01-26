@@ -17,7 +17,7 @@
 
 	<div align="center">
 		<button id="christ" type="button" class="button" onclick= updatedata("christians")>christ</button>
-		<button id="islam" type="button" class="button" onclick= updatedata("muslim")>islam</button>
+		<button id="islam" type="button" class="button" onclick= "updatedata('muslim')" >islam</button>
 		<button id="unaf" type="button" class="button" onclick= updatedata("unaf")>unaff</button>
 		<button id="hinduism" type="button" class="button" onclick= updatedata("hindu")>hinduism</button>
 		<button id="buddhism" type="button" class="button" onclick= updatedata("buddhist")>buddhism</button>
@@ -33,6 +33,14 @@
 	<div id="parent">
 		<div id="left">
 			<svg id="scatterleft"></svg>
+			<div class="dropdown">
+  				<button class="dropbtn">social data</button>
+  			<div class="dropdown-content">
+    			<a onclick="makescatter(current_religion, 'literacy')">Literacy rate</button>
+    			<a onclick="makescatter(current_religion, 'expectancy')">Life expectancy</a>
+    			<a>Link 3</a>
+  			</div>
+			</div>
 		</div>
 		<div id="right"></div>
 

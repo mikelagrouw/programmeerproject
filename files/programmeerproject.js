@@ -28,7 +28,8 @@ var pie = d3.layout.pie()
 
 var tooltippie = d3.select("#right")
 				.append("div")
-				.attr("class", "tooltip")
+				.attr("class", "tooltippie")
+				.style("opacity", 0);
 
 		tooltippie.append("div")
 		.attr("class", "religion")
@@ -81,9 +82,9 @@ function makepie(land){
 			if(data[i].land == land)
 			{
 				var piepie = [
-				{"label": "jew", "percentage" :Number(data[i].jewish)},
-				{"label": "christ", "percentage": Number(data[i].christians)},
-				{"label": "islam", "percentage": Number(data[i].muslim)},
+				{"label": "jewish", "percentage" :Number(data[i].jewish)},
+				{"label": "christians", "percentage": Number(data[i].christians)},
+				{"label": "muslim", "percentage": Number(data[i].muslim)},
 				{"label": "folk",  "percentage": Number(data[i].folk)},  
 				{"label": "buddhist", "percentage": Number(data[i].buddhist)},
 				{"label": "other", "percentage": Number(data[i].other)},
@@ -98,14 +99,20 @@ function makepie(land){
 	      	.attr("class", "arc");
 
 	var path =  g.append("path")
+		  .attr("class", "pathpie")
 	      .attr("d", arc)
-	      .style("fill", function(d){ return color(d.data.label); });
-
-	    svgpie.select("path").on("mousover", function(d, i){
-	    	console.log("mousover");
-	    	tooltip.select('.religion').html(d.data.label)
-	    	tooltip.style("display", "block");
-	    })
+	      .style("fill", function (d){ return color(d.data.label); })
+	      .on("mouseover", function (d){
+	    	console.log(d.data.label);
+	    	tooltippie.select('.religion').html(d.data.label);
+	    	tooltippie.select(".percentage").html(d.data.percentage + " %");
+	    	tooltippie.style("display", "block")
+	    	tooltippie.style("opacity", 9);})
+	      .on("mouseout", function (d) {
+	      	console.log("HIER MET JE D");
+	      	tooltippie.style("opacity", 0)})
+	      .on("click", function (d){makescatter(d.data.label, "expectancy")});
+	   
 
 	var legend = svgpie.selectAll(".legend")
 				.data(color.domain())
@@ -134,42 +141,60 @@ function makepie(land){
   .text(function(d) { return d; });
 
 
+
+
 	 	
 	});
 }
 
-
-var xValue = function(d) { return d.percentage;}, 
+function makescatter(religion, social){
+	console.log("scatter");
+var xValue = function(d) { return d[religion];}, 
     xScale = d3.scale.linear().range([0, 360]), 
     xMap = function(d) { return xScale(xValue(d));}, 
     xAxis = d3.svg.axis().scale(xScale).orient("bottom");
 
-var yValue = function(d) { return scatterdata.social;}, 
+var yValue = function(d) { return d.social;}, 
     yScale = d3.scale.linear().range([360, 0]), 
-    yMap = function(d) { console.log(yScale(yValue(d)), "doe dit plzzz"); return yScale(yValue(d));},
+    yMap = function(d) { return yScale(yValue(d));},
     yAxis = d3.svg.axis().scale(yScale).orient("left");
 
     console.log(yMap)
 
-var marginscatter = {top: 20, bottom: 20, left: 20, right: 20},
+var marginscatter = {top: 20, bottom: 20, left: 40, right: 60},
 		widthscatter = 400 - marginscatter.left - marginscatter.right,
 		heightscatter = 400 - marginscatter.bottom - marginscatter.top;
 	console.log(widthscatter, "width")
 
-var svgscatter = d3.select("body").append("svg")
+d3.select(".scatter").remove();
+
+var svgscatter = d3.select("#left").append("svg")
 				.attr("width", widthscatter + marginscatter.left + marginscatter.right)
     			.attr("height", heightscatter + marginscatter.top + marginscatter.bottom)
     			.attr("class", "scatter")
   				.append("g")
     			.attr("transform", "translate(" + marginscatter.left + "," + marginscatter.top + ")");
  
-    	
-var scatterdata = {}  
-	dataindex = 0	
+ var tooltip = d3.select("#left").append("div")
+    .attr("class", "tooltipscatter")
+    .style("opacity", 0);   	
+	
 
 
 d3.json("json.txt", function(data){
-    d3.json("expectancy.txt", function(data2){
+	console.log(social)
+	if (social == "expectancy")
+	{
+		socialdata = "expectancy.txt"
+	}
+	if (social == "literacy")
+	{
+		socialdata = "literacy.txt"
+	}
+    d3.json(socialdata, function(data2){
+
+    	var scatterdata = {}  
+	dataindex = 0
 
 
         for(v = 0; v < data.length; v++)
@@ -178,14 +203,15 @@ d3.json("json.txt", function(data){
         	{
         		if (data[v].land == data2[f].land)
         		{
-        			scatterdata[dataindex] = {"land": data[v].land, "percentage": Number(data[v].muslim), "social": Number(data2[f].expectancy)}
+        			data[v].social = Number(data2[f][social])
+        			data[v][religion] = Number(data[v][religion])
         			dataindex += 1
         		}
         	}
         }
-        console.log(scatterdata, "undifined???")
-          	xScale.domain([d3.min(scatterdata, xValue)-1, d3.max(scatterdata, xValue)+1]);
-  			yScale.domain([d3.min(scatterdata, yValue)-1, d3.max(scatterdata, yValue)+1]);
+        console.log(data, "undifined???")
+          	xScale.domain([d3.min(data, xValue)-1, d3.max(data, xValue)+1]);
+  			yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
 
           svgscatter.append("g")
       .attr("class", "x axis")
@@ -194,9 +220,9 @@ d3.json("json.txt", function(data){
     .append("text")
       .attr("class", "label")
       .attr("x", widthscatter)
-      .attr("y", -6)
+      .attr("y", -5)
       .style("text-anchor", "end")
-      .text("religion percentage");
+      .text("percentage " + religion);
 
 svgscatter.append("g")
       .attr("class", "y axis")
@@ -204,35 +230,47 @@ svgscatter.append("g")
     .append("text")
       .attr("class", "label")
       .attr("transform", "rotate(-90)")
-      .attr("y", -15)
+      .attr("y", -40)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("social shit");
+      .text(social);
 
-      console.log(scatterdata, "scatterdata")
-
-      console.log(yMap, xMap)
+      
       svgscatter.selectAll(".dot")
-      .data(scatterdata)
+      .data(data)
     .enter()
     .append("circle")
       .attr("class", "dot")
-      .attr("r", 5)
+      .attr("r", 2)
       .attr("cx", xMap)
       .attr("cy", yMap)
       .style("fill", "black")
+      .on("mouseover", function(d) {
+          tooltip.transition()
+               .duration(200)
+               .style("opacity", .9);
+          tooltip.html(d.land + "<br/> (" + xValue(d) 
+	        + ", " + yValue(d) + ")")
+               .style("left", (d3.event.pageX + 5) + "px")
+               .style("top", (d3.event.pageY - 28) + "px");
+      })
+      .on("mouseout", function(d) {
+          tooltip.transition()
+               .duration(500)
+               .style("opacity", 0);
+      })
+      .on("click", function(d){
+      	makepie(d.land)
+      });
         
 
     })
 })
-		
+}
+makescatter("muslim", "literacy")
 
+function check_prominent_religion(data, dataset){
 
-
-
-
-function check_prominent_religion(data){
-	//to do 
 }
 function get_religion_percentages(data, religion_index){
 
