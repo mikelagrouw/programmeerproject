@@ -23,15 +23,12 @@
 	width: 400px;
 	height: 300px;
 }
-#right{
-	flex: 1;
-	height: 300px;
-}
 
 #right {                                                          
-        height: 360px;                                                  
+        height: 280px;                                                  
         position: relative;                                             
-        width: 360px;                                                   
+        width: 280px; 
+                                                          
 }                                                                 
 .tooltip {                                                        
         background: #eee;                                               
@@ -47,6 +44,10 @@
         width: 80px;                                                    
         z-index: 10;                                                    
 }  
+.titel{
+	text-align: center;
+	font-size: 18px;
+}
 #containermap{
 	background-color: #FFFFD0;
 	margin-top: 10px;
@@ -64,6 +65,12 @@
 }
 #pie{
 	margin: 0 auto;
+}
+.legend {
+	font-size: 12px;
+}
+rect{
+	stroke-width: 2;
 }
 .axis path,
 .axis line {

@@ -2319,4 +2319,15 @@
 	"buddhist": " 0.1",
 	"christians": "97.6",
 	"population": "13090000"
-}]
+}, {
+	"land": "World",
+	"jewish": " 0.2",
+	"hindu": "15.0",
+	"muslim": "23.2",
+	"other": "0.8",
+	"unaf": "16.3",
+	"folk": "5.9",
+	"buddhist": "7.1",
+	"christians": "31.5",
+	"population": "6895890000"}
+]

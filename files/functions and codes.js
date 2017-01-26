@@ -273,7 +273,7 @@ function updatedata(religion){
         }
         if(data[p][religion] <= 75 && data[p][religion] > 50)
         {
-            dataset[getcountrycode(data[p].land)] = {fillKey: "welke - 50", percentage: data[p][religion]};
+            dataset[getcountrycode(data[p].land)] = {fillKey: "75 - 50", percentage: data[p][religion]};
         }
         if(data[p][religion] <= 50 && data[p][religion] > 10)
         {
@@ -305,7 +305,7 @@ function updatedata(religion){
         element: document.getElementById('containermap'),
         fills: {
             ">75": "#005824",
-            "welke - 50": "#238b45",
+            "75 - 50": "#238b45",
             "50 - 10": "#41ae76",
             "10 - 5": "#66c2a4",
             "5 - 1": "#99d8c9",
