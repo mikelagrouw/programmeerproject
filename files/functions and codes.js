@@ -249,7 +249,7 @@ var codes = [
     ["zm", "ZMB", "Zambia"],
     ["zw", "ZWE", "Zimbabwe"] ];
 
-var current_religion = "most"
+var current_religion = "muslim"
 
     function getcountrycode(country){
     for(i = 0; i < codes.length; i++)

@@ -93,6 +93,8 @@ function makepie(land){
 				console.log(piepie, "pie data")
 			}
 		}
+
+
 		  var g = svgpie.selectAll(".arc")
 	      .data(pie(piepie))
 	    	.enter().append("g")
@@ -103,15 +105,16 @@ function makepie(land){
 	      .attr("d", arc)
 	      .style("fill", function (d){ return color(d.data.label); })
 	      .on("mouseover", function (d){
-	    	console.log(d.data.label);
 	    	tooltippie.select('.religion').html(d.data.label);
 	    	tooltippie.select(".percentage").html(d.data.percentage + " %");
 	    	tooltippie.style("display", "block")
-	    	tooltippie.style("opacity", 9);})
+	    	tooltippie.style("opacity", 9);
+	    	d3.select(this).attr("fill", "black");})
 	      .on("mouseout", function (d) {
 	      	console.log("HIER MET JE D");
 	      	tooltippie.style("opacity", 0)})
-	      .on("click", function (d){makescatter(d.data.label, "expectancy")});
+	      .on("click", function (d){makescatter(d.data.label, "expectancy");
+	  		current_religion = d.data.label});
 	   
 
 	var legend = svgpie.selectAll(".legend")
@@ -240,6 +243,7 @@ svgscatter.append("g")
       .data(data)
     .enter()
     .append("circle")
+.filter(function (d){return d.social != undefined})
       .attr("class", "dot")
       .attr("r", 2)
       .attr("cx", xMap)
@@ -253,6 +257,7 @@ svgscatter.append("g")
 	        + ", " + yValue(d) + ")")
                .style("left", (d3.event.pageX + 5) + "px")
                .style("top", (d3.event.pageY - 28) + "px");
+
       })
       .on("mouseout", function(d) {
           tooltip.transition()
