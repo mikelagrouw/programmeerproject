@@ -72,6 +72,7 @@ body{
   border-color: black;
   border-radius: 15px;
   background-color: #FFFFD0;
+  margin: 0 auto;
 }
 #parent2{
   margin-top: 20px;
@@ -82,13 +83,14 @@ body{
 #left{
 	width: 300px;
 	height: 300px;
+  margin: 0 auto;
 }
 
 #right {                                                          
         height: 300px;                                                  
         position: relative;                                             
         width: 300px; 
-                                                          
+        margin: 0 auto;                                                 
 }                                                                 
 .tooltip {                                                        
         background: #eee;                                               
@@ -123,17 +125,8 @@ body{
 	border-radius: 15px;
   border-style: solid;
   border-color: black;
+}
 
-}
-#parent{
-	margin: 0 auto;
-}
-#left{
-	margin: 0 auto;
-}
-#right{
-	margin: 0 auto;
-}
 #pie{
 	margin: 0 auto;
 }
@@ -235,4 +228,24 @@ li a:hover{
 #para{
   width: 700px;
   text-align: center;
+}
+#bron{
+  text-decoration: none;
+  width: 200px;
+  height: 35px;
+  margin-top: 10px;
+  background-color:lightgreen;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: black; 
+  cursor: pointer;
+}
+#bron:hover{
+  color: white;
+  background-color: black;
+}
+.bronnen{
+  margin: 10px;
 }

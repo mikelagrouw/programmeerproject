@@ -165,8 +165,7 @@ function onclick_data(geography, data){
                 .attr("r", 2)
                 .style("fill", function(data){return data.color;})
             }
-            // select dot corresponding with country fill and make bigger
-            
+            // give error if no data available
             if (geography.id == "-99" || geography.id == "ZWE" || geography.id == "FLK" || geography.id == "GNB" || geography.id == "ATF"){
                 d3.select(".pie").remove();
                 d3.selectAll(".titelpie").remove()
@@ -177,9 +176,9 @@ function onclick_data(geography, data){
                 .style("color", "red")
             }
             else
+            // select dot corresponding with country fill and make bigger
             { 
                 classs = "." + geography.id + "dot"
-                console.log(classs)
                 clas = classs
                 d3.select(classs)
                 .attr("r", 5)
@@ -187,6 +186,5 @@ function onclick_data(geography, data){
                 .style("stroke", "black")
                 makepie(geography.properties.name);
             }
-            console.log(geography.properties.name, "name");
             
 }

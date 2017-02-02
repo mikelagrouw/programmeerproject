@@ -26,7 +26,6 @@ var svgscatter = d3.select("#left").append("svg")
  
 // open religion data
 d3.json("json.txt", function(data){
-console.log(social);
 // check which social data to open
 if (social == "life expectancy")
 {
@@ -40,7 +39,6 @@ if (social == "happiness index score")
 {
 	socialdata = "happiness index score.txt"
 }
-console.log(socialdata, "socialdata");
 // open social data
 d3.json(socialdata, function(data2){
     // look for social data corresponding to religion data and put in religion json
@@ -116,6 +114,7 @@ d3.json(socialdata, function(data2){
       })
       // on mousout back to default
       .on("mouseout", function(d) {
+          console.log(this.style[0])
           tooltip.transition()
             .duration(500)
             .style("opacity", 0);
@@ -123,11 +122,25 @@ d3.json(socialdata, function(data2){
            .attr("r", 2)
            .style("fill", "black")
            .style("stroke", "none");
+           if (classs != "0")
+      {
+                d3.select(classs)
+                .attr("r", 5)
+                .style("fill", "blue")
+                .style("stroke", "black")
+      }
       })
       // on click update pie chart
       .on("click", function(d){
       	makepie(d.land)
       });
+      if (classs != "0")
+      {
+                d3.select(classs)
+                .attr("r", 5)
+                .style("fill", "blue")
+                .style("stroke", "black")
+      }
     })
 })
 };

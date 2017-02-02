@@ -35,7 +35,7 @@ function makepie(land){
 				{"label": "other", "percentage": Number(data[i].other)},
 				{"label": "unaffiliated", "percentage": Number(data[i].unaffiliated)},
 				{"label": "hindu", "percentage": Number(data[i].hindu)}];
-				console.log(datapie, "pie data")
+				
 			}
 		}
 
@@ -64,7 +64,6 @@ function makepie(land){
       		;})
 	    // on mousout back to default
 	    .on("mouseout", function (d) {
-	      	console.log("HIER MET JE D");
 	      	tooltippie.style("opacity", 0);
 	      	d3.select(this).transition()
           	.duration(300)
@@ -85,7 +84,6 @@ function makepie(land){
 			.attr("transform", function(d, i){
 				var heightlegend = legendRectSize + legendSpacing;
 				var offset = heightlegend * color.domain().length - 55;
-				console.log(i)
 				var horz = -2 * legendRectSize;
 				var vert = i * heightlegend - offset;
 				return 'translate(' + horz + ',' + vert + ')';
@@ -117,7 +115,6 @@ function makepie(land){
 		.text("world data")
 		// on click show world data pie
 		d3.select("#world").on("click", function(){makepie("World");})
-
 
 	});
 }

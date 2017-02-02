@@ -2,6 +2,7 @@
 var dataset = {}
 //make clas varible to keep track of selected dot by map
 clas = "0"
+classs = "0"
 // save current social value for scatter
 current_social = "expectancy"
 // size of pie legend
