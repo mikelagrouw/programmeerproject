@@ -5,6 +5,8 @@ omdat data verzamelen voor het muziek album idee niet haalbaar is bevonden, heb 
 
 op de eerste visualistatie zal een wereldkaart getoont worden met een keuzemenu ernaast waarin je verschillende geloven kan kiezen. als je op een geloof klikt zie je met kleur in welke landen het percentage aanhangers hoog of laag is. ook kan je een total box aanlikken waarmee je kan zien in welke landen welk geloof het meest prominent aanwezig is. als je op een land klikt zal er een piechart aangepast worden die in het begin de geloofsverdeling in de hele wereld weergeeft. in een scatterplot staan verschillende geloven uitgebeeld tegenover sciale waarden. alledrie de grafieken zijn gelinked. als je op een land drukt in de kaart zal de pie worden geupdate en het land in de scatter worden gehighlighed. als je op een land klikt in de scatter zal de pie geupdate worden en als je op een geloof in de pie klikt zullen de kaart en de scatter geupdate worden met het corresponderende geloof
 
+alle files voor het project staan in het mapje files
+
 # tekeningen nieuwe design en links
 ![](doc/image4.jpg)
 

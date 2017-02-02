@@ -1,6 +1,7 @@
 # Short discription
 
-in pagina die ik in deze 4 weken heb gemakkt bestaat uit drie visualisaties over in kaart brengen van religies over de wereld. de eerste visualisatie is een datamap waarin je twee dingen kan zien. welke reigies het meest prominent zijn in de verschillende landen en hoe verschillende religies verspreid zijn over de wereld. met buttons kan je tussen deze functies switchen. in de tweede visualasatie kan je zien per land hoe verschillende religies zijn verdeeld onder de bevolking met een donut chart. deze wordt upgedate als je op een land klikt. in de derde visualasatie kun je met een scatterplot zien hoe percentages aanhangers van een religie per land staan tegenover lktaricy rate, life expectancy and happiness index.
+in pagina die ik in deze 4 weken heb gemakkt bestaat uit drie visualisaties over in kaart brengen van religies over de wereld. de eerste visualisatie is een datamap waarin je twee dingen kan zien. welke reigies het meest prominent zijn in de verschillende landen en hoe verschillende religies verspreid zijn over de wereld. met buttons kan je tussen deze functies switchen. in de tweede visualasatie kan je zien per land hoe verschillende religies zijn verdeeld onder de bevolking met een donut chart. deze wordt upgedate als je op een land klikt. in de derde visualasatie kun je met een scatterplot zien hoe percentages aanhangers van een religie per land staan tegenover litaricy rate, life expectancy and happiness index.
+![](doc/screenshot.png)
 
 # Technical design
 
