@@ -1,3 +1,13 @@
+p{
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  background-color: #FFFFD0;
+}
+dd{
+  border-style: solid;
+  border-color: black;
+}
 header{
   color: black;
   margin: 10px;
@@ -8,7 +18,7 @@ header{
   text-align: center;
 }
 body{
-  background-color: #cfffcf;
+  background-color: #cfcfcf;
 }
 .button {
 	font-size: 16px;
@@ -62,6 +72,12 @@ body{
   border-color: black;
   border-radius: 15px;
   background-color: #FFFFD0;
+}
+#parent2{
+  margin-top: 20px;
+  display: flex;
+  height: 250px;
+  
 }
 #left{
 	width: 300px;
@@ -201,6 +217,7 @@ ul {
     border-width: 1px;
     position: fixed;
     overflow: auto;
+    z-index: 10002;
 }
 li a {
     display: block;
@@ -209,12 +226,13 @@ li a {
     color: black;
     text-decoration: none;
     text-align: center;
+    
 }
 li a:hover{
   background-color: black;
   color: white;
 }
 #para{
-  width:300px;
+  width: 700px;
   text-align: center;
 }

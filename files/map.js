@@ -150,7 +150,6 @@ function updatedatamost(){
 
     });
     d3.select(".datamaps-legend").remove()
-    map.legend()
     map.svg.selectAll('.datamaps-subunit').on('click', function(geography, data) {
     onclick_data(geography, data);
     
