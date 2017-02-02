@@ -1,454 +1,454 @@
 [{
-	"literacy": "86.3",
+	"literacy rate": "86.3",
 	"land": "World"
 }, {
-	"literacy": "38",
+	"literacy rate": "38",
 	"land": "Afghanistan"
 }, {
-	"literacy": "97",
+	"literacy rate": "97",
 	"land": "Albania"
 }, {
-	"literacy": "80",
+	"literacy rate": "80",
 	"land": "Algeria"
 }, {
-	"literacy": "71",
+	"literacy rate": "71",
 	"land": "Angola"
 }, {
-	"literacy": "98",
+	"literacy rate": "98",
 	"land": "Argentina"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Armenia"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Azerbaijan"
 }, {
-	"literacy": "95",
+	"literacy rate": "95",
 	"land": "Bahrain"
 }, {
-	"literacy": "61",
+	"literacy rate": "61",
 	"land": "Bangladesh"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Belarus"
 }, {
-	"literacy": "82",
+	"literacy rate": "82",
 	"land": "Belize"
 }, {
-	"literacy": "38",
+	"literacy rate": "38",
 	"land": "Benin"
 }, {
-	"literacy": "64",
+	"literacy rate": "64",
 	"land": "Bhutan"
 }, {
-	"literacy": "95",
+	"literacy rate": "95",
 	"land": "Bolivia"
 }, {
-	"literacy": "98",
+	"literacy rate": "98",
 	"land": "Bosnia and Herzegovina"
 }, {
-	"literacy": "88",
+	"literacy rate": "88",
 	"land": "Botswana"
 }, {
-	"literacy": "92",
+	"literacy rate": "92",
 	"land": "Brazil"
 }, {
-	"literacy": "96",
+	"literacy rate": "96",
 	"land": "Brunei Darussalam"
 }, {
-	"literacy": "98",
+	"literacy rate": "98",
 	"land": "Bulgaria"
 }, {
-	"literacy": "36",
+	"literacy rate": "36",
 	"land": "Burkina Faso"
 }, {
-	"literacy": "85",
+	"literacy rate": "85",
 	"land": "Burundi"
 }, {
-	"literacy": "87",
+	"literacy rate": "87",
 	"land": "Cabo Verde"
 }, {
-	"literacy": "77",
+	"literacy rate": "77",
 	"land": "Cambodia"
 }, {
-	"literacy": "74",
+	"literacy rate": "74",
 	"land": "Cameroon"
 }, {
-	"literacy": "36",
+	"literacy rate": "36",
 	"land": "Central African Republic"
 }, {
-	"literacy": "40",
+	"literacy rate": "40",
 	"land": "Chad"
 }, {
-	"literacy": "97",
+	"literacy rate": "97",
 	"land": "Chile"
 }, {
-	"literacy": "96",
+	"literacy rate": "96",
 	"land": "China"
 }, {
-	"literacy": "94",
+	"literacy rate": "94",
 	"land": "Colombia"
 }, {
-	"literacy": "77",
+	"literacy rate": "77",
 	"land": "Comoros"
 }, {
-	"literacy": "79",
+	"literacy rate": "79",
 	"land": "Congo"
 }, {
-	"literacy": "77",
+	"literacy rate": "77",
 	"land": "Congo, Democratic Republic of the"
 }, {
-	"literacy": "97",
+	"literacy rate": "97",
 	"land": "Costa Rica"
 }, {
-	"literacy": "43",
+	"literacy rate": "43",
 	"land": "Cte d'Ivoire"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Croatia"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Cuba"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Cyprus"
 }, {
-	"literacy": "91",
+	"literacy rate": "91",
 	"land": "Dominican Republic"
 }, {
-	"literacy": "94",
+	"literacy rate": "94",
 	"land": "Ecuador"
 }, {
-	"literacy": "75",
+	"literacy rate": "75",
 	"land": "Egypt"
 }, {
-	"literacy": "88",
+	"literacy rate": "88",
 	"land": "El Salvador"
 }, {
-	"literacy": "95",
+	"literacy rate": "95",
 	"land": "Equatorial Guinea"
 }, {
-	"literacy": "73",
+	"literacy rate": "73",
 	"land": "Eritrea"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Estonia"
 }, {
-	"literacy": "49",
+	"literacy rate": "49",
 	"land": "Ethiopia"
 }, {
-	"literacy": "83",
+	"literacy rate": "83",
 	"land": "Gabon"
 }, {
-	"literacy": "55",
+	"literacy rate": "55",
 	"land": "Gambia"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Georgia"
 }, {
-	"literacy": "76",
+	"literacy rate": "76",
 	"land": "Ghana"
 }, {
-	"literacy": "97",
+	"literacy rate": "97",
 	"land": "Greece"
 }, {
-	"literacy": "79",
+	"literacy rate": "79",
 	"land": "Guatemala"
 }, {
-	"literacy": "30",
+	"literacy rate": "30",
 	"land": "Guinea"
 }, {
-	"literacy": "59",
+	"literacy rate": "59",
 	"land": "Guinea-Bissau"
 }, {
-	"literacy": "88",
+	"literacy rate": "88",
 	"land": "Guyana"
 }, {
-	"literacy": "60",
+	"literacy rate": "60",
 	"land": "Haiti"
 }, {
-	"literacy": "88",
+	"literacy rate": "88",
 	"land": "Honduras"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Hungary"
 }, {
-	"literacy": "72",
+	"literacy rate": "72",
 	"land": "India"
 }, {
-	"literacy": "93",
+	"literacy rate": "93",
 	"land": "Indonesia"
 }, {
-	"literacy": "86",
+	"literacy rate": "86",
 	"land": "Iran"
 }, {
-	"literacy": "79",
+	"literacy rate": "79",
 	"land": "Iraq"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Italy"
 }, {
-	"literacy": "88",
+	"literacy rate": "88",
 	"land": "Jamaica"
 }, {
-	"literacy": "96",
+	"literacy rate": "96",
 	"land": "Jordan"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Kazakhstan"
 }, {
-	"literacy": "77",
+	"literacy rate": "77",
 	"land": "Kenya"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "North Korea"
 }, {
-	"literacy": "96",
+	"literacy rate": "96",
 	"land": "Kuwait"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Kyrgyzstan"
 }, {
-	"literacy": "79",
+	"literacy rate": "79",
 	"land": "Laos"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Latvia"
 }, {
-	"literacy": "93",
+	"literacy rate": "93",
 	"land": "Lebanon"
 }, {
-	"literacy": "79",
+	"literacy rate": "79",
 	"land": "Lesotho"
 }, {
-	"literacy": "47",
+	"literacy rate": "47",
 	"land": "Liberia"
 }, {
-	"literacy": "91",
+	"literacy rate": "91",
 	"land": "Libya"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Lithuania"
 }, {
-	"literacy": "97",
+	"literacy rate": "97",
 	"land": "Macedonia"
 }, {
-	"literacy": "64",
+	"literacy rate": "64",
 	"land": "Madagascar"
 }, {
-	"literacy": "65",
+	"literacy rate": "65",
 	"land": "Malawi"
 }, {
-	"literacy": "94",
+	"literacy rate": "94",
 	"land": "Malaysia"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Maldives"
 }, {
-	"literacy": "38",
+	"literacy rate": "38",
 	"land": "Mali"
 }, {
-	"literacy": "94",
+	"literacy rate": "94",
 	"land": "Malta"
 }, {
-	"literacy": "52",
+	"literacy rate": "52",
 	"land": "Mauritania"
 }, {
-	"literacy": "90",
+	"literacy rate": "90",
 	"land": "Mauritius"
 }, {
-	"literacy": "94",
+	"literacy rate": "94",
 	"land": "Mexico"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Moldova"
 }, {
-	"literacy": "98",
+	"literacy rate": "98",
 	"land": "Mongolia"
 }, {
-	"literacy": "98",
+	"literacy rate": "98",
 	"land": "Montenegro"
 }, {
-	"literacy": "72",
+	"literacy rate": "72",
 	"land": "Morocco"
 }, {
-	"literacy": "58",
+	"literacy rate": "58",
 	"land": "Mozambique"
 }, {
-	"literacy": "93",
+	"literacy rate": "93",
 	"land": "Myanmar"
 }, {
-	"literacy": "81",
+	"literacy rate": "81",
 	"land": "Namibia"
 }, {
-	"literacy": "64",
+	"literacy rate": "64",
 	"land": "Nepal"
 }, {
-	"literacy": "82",
+	"literacy rate": "82",
 	"land": "Nicaragua"
 }, {
-	"literacy": "19",
+	"literacy rate": "19",
 	"land": "Niger"
 }, {
-	"literacy": "59",
+	"literacy rate": "59",
 	"land": "Nigeria"
 }, {
-	"literacy": "94",
+	"literacy rate": "94",
 	"land": "Oman"
 }, {
-	"literacy": "56",
+	"literacy rate": "56",
 	"land": "Pakistan"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Palau"
 }, {
-	"literacy": "95",
+	"literacy rate": "95",
 	"land": "Panama"
 }, {
-	"literacy": "64",
+	"literacy rate": "64",
 	"land": "Papua New Guinea"
 }, {
-	"literacy": "95",
+	"literacy rate": "95",
 	"land": "Paraguay"
 }, {
-	"literacy": "94",
+	"literacy rate": "94",
 	"land": "Peru"
 }, {
-	"literacy": "96",
+	"literacy rate": "96",
 	"land": "Philippines"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Poland"
 }, {
-	"literacy": "95",
+	"literacy rate": "95",
 	"land": "Portugal"
 }, {
-	"literacy": "97",
+	"literacy rate": "97",
 	"land": "Qatar"
 }, {
-	"literacy": "98",
+	"literacy rate": "98",
 	"land": "Romania"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Russia"
 }, {
-	"literacy": "70",
+	"literacy rate": "70",
 	"land": "Rwanda"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Samoa"
 }, {
-	"literacy": "74",
+	"literacy rate": "74",
 	"land": "Sao Tome and Principe"
 }, {
-	"literacy": "94",
+	"literacy rate": "94",
 	"land": "Saudi Arabia"
 }, {
-	"literacy": "55",
+	"literacy rate": "55",
 	"land": "Senegal"
 }, {
-	"literacy": "98",
+	"literacy rate": "98",
 	"land": "Serbia"
 }, {
-	"literacy": "95",
+	"literacy rate": "95",
 	"land": "Seychelles"
 }, {
-	"literacy": "48",
+	"literacy rate": "48",
 	"land": "Sierra Leone"
 }, {
-	"literacy": "96",
+	"literacy rate": "96",
 	"land": "Singapore"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Slovakia"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Slovenia"
 }, {
-	"literacy": "94",
+	"literacy rate": "94",
 	"land": "South Africa"
 }, {
-	"literacy": "31",
+	"literacy rate": "31",
 	"land": "South Sudan"
 }, {
-	"literacy": "98",
+	"literacy rate": "98",
 	"land": "Spain"
 }, {
-	"literacy": "92",
+	"literacy rate": "92",
 	"land": "Sri Lanka"
 }, {
-	"literacy": "75",
+	"literacy rate": "75",
 	"land": "Sudan"
 }, {
-	"literacy": "95",
+	"literacy rate": "95",
 	"land": "Suriname"
 }, {
-	"literacy": "87",
+	"literacy rate": "87",
 	"land": "Swaziland"
 }, {
-	"literacy": "86",
+	"literacy rate": "86",
 	"land": "Syria"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Tajikistan"
 }, {
-	"literacy": "80",
+	"literacy rate": "80",
 	"land": "Tanzania, United Republic of"
 }, {
-	"literacy": "96",
+	"literacy rate": "96",
 	"land": "Thailand"
 }, {
-	"literacy": "67",
+	"literacy rate": "67",
 	"land": "Timor-Leste"
 }, {
-	"literacy": "66",
+	"literacy rate": "66",
 	"land": "Togo"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Tonga"
 }, {
-	"literacy": "98",
+	"literacy rate": "98",
 	"land": "Trinidad and Tobago"
 }, {
-	"literacy": "81",
+	"literacy rate": "81",
 	"land": "Tunisia"
 }, {
-	"literacy": "95",
+	"literacy rate": "95",
 	"land": "Turkey"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Turkmenistan"
 }, {
-	"literacy": "73",
+	"literacy rate": "73",
 	"land": "Uganda"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Ukraine"
 }, {
-	"literacy": "93",
-	"land": "United Arab Emiliteracys"
+	"literacy rate": "93",
+	"land": "United Arab Emiliteracy rates"
 }, {
-	"literacy": "98",
+	"literacy rate": "98",
 	"land": "Uruguay"
 }, {
-	"literacy": "99",
+	"literacy rate": "99",
 	"land": "Uzbekistan"
 }, {
-	"literacy": "85",
+	"literacy rate": "85",
 	"land": "Vanuatu"
 }, {
-	"literacy": "95",
+	"literacy rate": "95",
 	"land": "Venezuela"
 }, {
-	"literacy": "94",
+	"literacy rate": "94",
 	"land": "Vietnam"
 }, {
-	"literacy": "70",
+	"literacy rate": "70",
 	"land": "Yemen"
 }, {
-	"literacy": "63",
+	"literacy rate": "63",
 	"land": "Zambia"
 }, {
-	"literacy": "86",
+	"literacy rate": "86",
 	"land": "Zimbabwe"
 }]

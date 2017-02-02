@@ -1,0 +1,469 @@
+[{
+	"happiness index score": "7.526",
+	"land": "Denmark"
+}, {
+	"happiness index score": "7.509",
+	"land": "Switzerland"
+}, {
+	"happiness index score": "7.501",
+	"land": "Iceland"
+}, {
+	"happiness index score": "7.498",
+	"land": "Norway"
+}, {
+	"happiness index score": "7.413",
+	"land": "Finland"
+}, {
+	"happiness index score": "7.404",
+	"land": "Canada"
+}, {
+	"happiness index score": "7.339",
+	"land": "Netherlands"
+}, {
+	"happiness index score": "7.334",
+	"land": "New Zealand"
+}, {
+	"happiness index score": "7.313",
+	"land": "Australia"
+}, {
+	"happiness index score": "7.291",
+	"land": "Sweden"
+}, {
+	"happiness index score": "7.119",
+	"land": "Austria"
+}, {
+	"happiness index score": "7.104",
+	"land": "United States"
+}, {
+	"happiness index score": "7.087",
+	"land": "Costa Rica"
+}, {
+	"happiness index score": "7.039",
+	"land": "Puerto Rico"
+}, {
+	"happiness index score": "6.994",
+	"land": "Germany"
+}, {
+	"happiness index score": "6.952",
+	"land": "Brazil"
+}, {
+	"happiness index score": "6.929",
+	"land": "Belgium"
+}, {
+	"happiness index score": "6.907",
+	"land": "Ireland"
+}, {
+	"happiness index score": "6.871",
+	"land": "Luxembourg"
+}, {
+	"happiness index score": "6.778",
+	"land": "Mexico"
+}, {
+	"happiness index score": "6.739",
+	"land": "Singapore"
+}, {
+	"happiness index score": "6.725",
+	"land": "United Kingdom"
+}, {
+	"happiness index score": "6.705",
+	"land": "Chile"
+}, {
+	"happiness index score": "6.701",
+	"land": "Panama"
+}, {
+	"happiness index score": "6.650",
+	"land": "Argentina"
+}, {
+	"happiness index score": "6.596",
+	"land": "Czech Republic"
+}, {
+	"happiness index score": "6.573",
+	"land": "United Arab Emihappiness index scores"
+}, {
+	"happiness index score": "6.545",
+	"land": "Uruguay"
+}, {
+	"happiness index score": "6.488",
+	"land": "Malta"
+}, {
+	"happiness index score": "6.481",
+	"land": "Colombia"
+}, {
+	"happiness index score": "6.478",
+	"land": "France"
+}, {
+	"happiness index score": "6.474",
+	"land": "Thailand"
+}, {
+	"happiness index score": "6.379",
+	"land": "Saudi Arabia"
+}, {
+	"happiness index score": "6.379",
+	"land": "Taiwan"
+}, {
+	"happiness index score": "6.375",
+	"land": "Qatar"
+}, {
+	"happiness index score": "6.361",
+	"land": "Spain"
+}, {
+	"happiness index score": "6.355",
+	"land": "Algeria"
+}, {
+	"happiness index score": "6.324",
+	"land": "Guatemala"
+}, {
+	"happiness index score": "6.269",
+	"land": "Suriname"
+}, {
+	"happiness index score": "6.239",
+	"land": "Kuwait"
+}, {
+	"happiness index score": "6.218",
+	"land": "Bahrain"
+}, {
+	"happiness index score": "6.168",
+	"land": "Trinidad and Tobago"
+}, {
+	"happiness index score": "6.084",
+	"land": "Venezuela"
+}, {
+	"happiness index score": "6.078",
+	"land": "Slovakia"
+}, {
+	"happiness index score": "6.068",
+	"land": "El Salvador"
+}, {
+	"happiness index score": "6.005",
+	"land": "Malaysia"
+}, {
+	"happiness index score": "5.992",
+	"land": "Nicaragua"
+}, {
+	"happiness index score": "5.987",
+	"land": "Uzbekistan"
+}, {
+	"happiness index score": "5.977",
+	"land": "Italy"
+}, {
+	"happiness index score": "5.976",
+	"land": "Ecuador"
+}, {
+	"happiness index score": "5.956",
+	"land": "Belize"
+}, {
+	"happiness index score": "5.921",
+	"land": "Japan"
+}, {
+	"happiness index score": "5.919",
+	"land": "Kazakhstan"
+}, {
+	"happiness index score": "5.897",
+	"land": "Moldova"
+}, {
+	"happiness index score": "5.856",
+	"land": "Russia"
+}, {
+	"happiness index score": "5.835",
+	"land": "Poland"
+}, {
+	"happiness index score": "5.835",
+	"land": "South Korea"
+}, {
+	"happiness index score": "5.822",
+	"land": "Bolivia"
+}, {
+	"happiness index score": "5.813",
+	"land": "Lithuania"
+}, {
+	"happiness index score": "5.802",
+	"land": "Belarus"
+}, {
+	"happiness index score": "5.771",
+	"land": "Northern Cyprus"
+}, {
+	"happiness index score": "5.768",
+	"land": "Slovenia"
+}, {
+	"happiness index score": "5.743",
+	"land": "Peru"
+}, {
+	"happiness index score": "5.658",
+	"land": "Turkmenistan"
+}, {
+	"happiness index score": "5.648",
+	"land": "Mauritius"
+}, {
+	"happiness index score": "5.615",
+	"land": "Libya"
+}, {
+	"happiness index score": "5.560",
+	"land": "Latvia"
+}, {
+	"happiness index score": "5.546",
+	"land": "Cyprus"
+}, {
+	"happiness index score": "5.538",
+	"land": "Paraguay"
+}, {
+	"happiness index score": "5.528",
+	"land": "Romania"
+}, {
+	"happiness index score": "5.517",
+	"land": "Estonia"
+}, {
+	"happiness index score": "5.510",
+	"land": "Jamaica"
+}, {
+	"happiness index score": "5.488",
+	"land": "Croatia"
+}, {
+	"happiness index score": "5.458",
+	"land": "Hong Kong"
+}, {
+	"happiness index score": "5.440",
+	"land": "Somalia"
+}, {
+	"happiness index score": "5.401",
+	"land": "Kosovo [Note 1]"
+}, {
+	"happiness index score": "5.389",
+	"land": "Turkey"
+}, {
+	"happiness index score": "5.314",
+	"land": "Indonesia"
+}, {
+	"happiness index score": "5.303",
+	"land": "Jordan"
+}, {
+	"happiness index score": "5.291",
+	"land": "Azerbaijan"
+}, {
+	"happiness index score": "5.279",
+	"land": "Philippines"
+}, {
+	"happiness index score": "5.245",
+	"land": "China "
+}, {
+	"happiness index score": "5.196",
+	"land": "Bhutan"
+}, {
+	"happiness index score": "5.185",
+	"land": "Kyrgyzstan"
+}, {
+	"happiness index score": "5.177",
+	"land": "Serbia"
+}, {
+	"happiness index score": "5.163",
+	"land": "Bosnia and Herzegovina"
+}, {
+	"happiness index score": "5.161",
+	"land": "Montenegro"
+}, {
+	"happiness index score": "5.155",
+	"land": "Dominican Republic"
+}, {
+	"happiness index score": "5.151",
+	"land": "Morocco"
+}, {
+	"happiness index score": "5.145",
+	"land": "Hungary"
+}, {
+	"happiness index score": "5.132",
+	"land": "Pakistan"
+}, {
+	"happiness index score": "5.129",
+	"land": "Lebanon"
+}, {
+	"happiness index score": "5.123",
+	"land": "Portugal"
+}, {
+	"happiness index score": "5.121",
+	"land": "Macedonia"
+}, {
+	"happiness index score": "5.061",
+	"land": "Vietnam"
+}, {
+	"happiness index score": "5.057",
+	"land": "Somaliland region"
+}, {
+	"happiness index score": "5.045",
+	"land": "Tunisia"
+}, {
+	"happiness index score": "5.033",
+	"land": "Greece"
+}, {
+	"happiness index score": "4.996",
+	"land": "Tajikistan"
+}, {
+	"happiness index score": "4.907",
+	"land": "Mongolia"
+}, {
+	"happiness index score": "4.876",
+	"land": "Laos"
+}, {
+	"happiness index score": "4.875",
+	"land": "Nigeria"
+}, {
+	"happiness index score": "4.871",
+	"land": "Honduras"
+}, {
+	"happiness index score": "4.813",
+	"land": "Iran"
+}, {
+	"happiness index score": "4.795",
+	"land": "Zambia"
+}, {
+	"happiness index score": "4.793",
+	"land": "Nepal"
+}, {
+	"happiness index score": "4.754",
+	"land": "Palestinian Territories[Note 2]"
+}, {
+	"happiness index score": "4.655",
+	"land": "Albania"
+}, {
+	"happiness index score": "4.643",
+	"land": "Bangladesh"
+}, {
+	"happiness index score": "4.635",
+	"land": "Sierra Leone"
+}, {
+	"happiness index score": "4.575",
+	"land": "Iraq"
+}, {
+	"happiness index score": "4.574",
+	"land": "Namibia"
+}, {
+	"happiness index score": "4.513",
+	"land": "Cameroon"
+}, {
+	"happiness index score": "4.508",
+	"land": "Ethiopia"
+}, {
+	"happiness index score": "4.459",
+	"land": "South Africa"
+}, {
+	"happiness index score": "4.415",
+	"land": "Sri Lanka"
+}, {
+	"happiness index score": "4.404",
+	"land": "India"
+}, {
+	"happiness index score": "4.395",
+	"land": "Myanmar"
+}, {
+	"happiness index score": "4.362",
+	"land": "Egypt"
+}, {
+	"happiness index score": "4.360",
+	"land": "Armenia"
+}, {
+	"happiness index score": "4.356",
+	"land": "Kenya"
+}, {
+	"happiness index score": "4.324",
+	"land": "Ukraine"
+}, {
+	"happiness index score": "4.276",
+	"land": "Ghana"
+}, {
+	"happiness index score": "4.272",
+	"land": "Republic of the Congo"
+}, {
+	"happiness index score": "4.252",
+	"land": "Georgia"
+}, {
+	"happiness index score": "4.236",
+	"land": "Democratic Republic of the Congo"
+}, {
+	"happiness index score": "4.219",
+	"land": "Senegal"
+}, {
+	"happiness index score": "4.217",
+	"land": "Bulgaria"
+}, {
+	"happiness index score": "4.201",
+	"land": "Mauritania"
+}, {
+	"happiness index score": "4.193",
+	"land": "Zimbabwe"
+}, {
+	"happiness index score": "4.156",
+	"land": "Malawi"
+}, {
+	"happiness index score": "4.139",
+	"land": "Sudan"
+}, {
+	"happiness index score": "4.121",
+	"land": "Gabon"
+}, {
+	"happiness index score": "4.073",
+	"land": "Mali"
+}, {
+	"happiness index score": "4.028",
+	"land": "Haiti"
+}, {
+	"happiness index score": "3.974",
+	"land": "Botswana"
+}, {
+	"happiness index score": "3.956",
+	"land": "Comoros"
+}, {
+	"happiness index score": "3.916",
+	"land": "Ivory Coast"
+}, {
+	"happiness index score": "3.907",
+	"land": "Cambodia"
+}, {
+	"happiness index score": "3.866",
+	"land": "Angola"
+}, {
+	"happiness index score": "3.856",
+	"land": "Niger"
+}, {
+	"happiness index score": "3.832",
+	"land": "South Sudan"
+}, {
+	"happiness index score": "3.763",
+	"land": "Chad"
+}, {
+	"happiness index score": "3.739",
+	"land": "Burkina Faso"
+}, {
+	"happiness index score": "3.739",
+	"land": "Uganda"
+}, {
+	"happiness index score": "3.724",
+	"land": "Yemen"
+}, {
+	"happiness index score": "3.695",
+	"land": "Madagascar"
+}, {
+	"happiness index score": "3.666",
+	"land": "Tanzania"
+}, {
+	"happiness index score": "3.622",
+	"land": "Liberia"
+}, {
+	"happiness index score": "3.607",
+	"land": "Guinea"
+}, {
+	"happiness index score": "3.515",
+	"land": "Rwanda"
+}, {
+	"happiness index score": "3.484",
+	"land": "Benin"
+}, {
+	"happiness index score": "3.360",
+	"land": "Afghanistan"
+}, {
+	"happiness index score": "3.303",
+	"land": "Togo"
+}, {
+	"happiness index score": "3.069",
+	"land": "Syria"
+}, {
+	"happiness index score": "2.905",
+	"land": "Burundi"
+}]

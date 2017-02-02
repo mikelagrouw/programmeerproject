@@ -1,17 +1,55 @@
+header{
+  color: black;
+  margin: 10px;
+  background-color: #FFFFD0;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  text-align: center;
+}
+body{
+  background-color: #cfffcf;
+}
 .button {
 	font-size: 16px;
-	background-color: lightgreen;
 	padding: 8px 16px;
 	border-radius: 5px;
 	border: none;
   cursor: pointer;
+  background-color: lightgreen;
 	transition-duration: 0.4s;
+  margin-top: 10px;
 }
 .button:hover {
-	background-color: green;
-	color: white;
-	
+  background-color: black;
+	color: white;	
 }
+
+#jewism{
+  background-color: #377eb8;
+}
+#unaf{
+  background-color: #e41a1c;
+}
+#christ{
+  background-color: #ff7f00;
+}
+#islam{
+  background-color: #984ea3;
+}
+#hinduism{
+  background-color: #4daf4a;
+}
+#buddhism{
+  background-color: #f781bf;
+}
+#other{
+  background-color: #ffff33;
+}
+#folk{
+  background-color: #a65628;
+}
+
 #containermap{
 	margin: 0 auto;
 	margin-bottom: 50px;
@@ -19,16 +57,21 @@
 
 #parent{
 	display: flex;
+  height: 450px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  background-color: #FFFFD0;
 }
 #left{
-	width: 400px;
+	width: 300px;
 	height: 300px;
 }
 
 #right {                                                          
-        height: 280px;                                                  
+        height: 300px;                                                  
         position: relative;                                             
-        width: 280px; 
+        width: 300px; 
                                                           
 }                                                                 
 .tooltip {                                                        
@@ -49,10 +92,21 @@
 	text-align: center;
 	font-size: 18px;
 }
+.titelpie{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+}
 #containermap{
 	background-color: #FFFFD0;
 	margin-top: 10px;
 	border-radius: 15px;
+  border-style: solid;
+  border-color: black;
 
 }
 #parent{
@@ -81,8 +135,6 @@ rect{
 }
 .tooltipscatter {
   position: absolute;
-  width: 100px;
-  height: 35px;
   pointer-events: none;
   background-color: lightgreen;
   border-radius: 5px;
@@ -97,6 +149,7 @@ rect{
     border-radius: 15px;
     cursor: pointer;
     transition-duration: 0.2s;
+    margin-top: 10px;
 }
 .dropdown {
     position: relative;
@@ -130,4 +183,38 @@ rect{
   position: absolute;
   background-color: lightgreen;
   border-radius: 5px;
+  margin: 10px;
+  margin-top: 45px;
+}
+.datamaps-hoverover{
+  background-color: blue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width: 100px;
+    list-style-type: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    position: fixed;
+    overflow: auto;
+}
+li a {
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover{
+  background-color: black;
+  color: white;
+}
+#para{
+  width:300px;
+  text-align: center;
 }

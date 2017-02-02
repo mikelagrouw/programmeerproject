@@ -6,19 +6,25 @@
 </head>
 <body>
 	<link rel="stylesheet" type="text/css" href="programmeerproject.css"></link>
-	<script src="functions and codes.js"></script>
-	<header style="font-size: 26px; text-align: center;">The mapping of religion and social norms</header>
-	<header style="font-size: 18px; text-align: center;">dispersion of relegions across the world</header>
-
+	
+	<header style="font-size: 36px; text-align: center;">The mapping of religion and social norms</header>
+	<header style="font-size: 26px; text-align: center;">dispersion of relegions across the world</header>
+	<ul>
+		<li><a href="programmeerproject.html">data</a></li>
+		<li><a href="home.html">home</a></li>
+	</ul>
+	<script src="countrycodes.js"></script>
+	<script src="map.js"></script>
+	<script src="pie.js"></script>
+	<script src="scatter.js"></script>
 	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
 	<script src="http://datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
-
 	<div align="center">
-		<button id="christ" type="button" class="button" onclick= updatedata("christians")>christ</button>
+		<button id="christ" type="button" class="button" onclick= updatedata("christian")>christianity</button>
 		<button id="islam" type="button" class="button" onclick= "updatedata('muslim')" >islam</button>
-		<button id="unaf" type="button" class="button" onclick= updatedata("unaf")>unaff</button>
+		<button id="unaf" type="button" class="button" onclick= updatedata("unaffiliated")>unaffiliated</button>
 		<button id="hinduism" type="button" class="button" onclick= updatedata("hindu")>hinduism</button>
 		<button id="buddhism" type="button" class="button" onclick= updatedata("buddhist")>buddhism</button>
 		<button id="folk" type="button" class="button" onclick= updatedata("folk")>folk</button>
@@ -26,19 +32,20 @@
 		<button id="jewism" type="button" class="button" onclick= updatedata("jewish")>jewism</button>
 		<button id="most" type="button" class="button" onclick= updatedatamost()>most</button>
 	</div>
-	<div id="scatter" class="scatter">
+	<header align="center">mapping of different religions and prominent relgion per country</header>
 	
 </div>
 	<div id="containermap" style="position: relative; width: 750px; height: 450px;"></div>
+	<header>Dispersion of religions per country and religions scattered against social values</header>
 	<div id="parent">
 		<div id="left">
 			<svg id="scatterleft"></svg>
 			<div class="dropdown">
   				<button class="dropbtn">social data</button>
   			<div class="dropdown-content">
-    			<a onclick="makescatter(current_religion, 'literacy')">Literacy rate</button>
-    			<a onclick="makescatter(current_religion, 'expectancy')">Life expectancy</a>
-    			<a>Link 3</a>
+    			<a onclick="makescatter(current_religion, 'literacy rate')">Literacy rate</button>
+    			<a onclick="makescatter(current_religion, 'life expectancy')">Life expectancy</a>
+    			<a onclick="makescatter(current_religion, 'happiness index score')">Happiness index</a>
   			</div>
 			</div>
 		</div>
